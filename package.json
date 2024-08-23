@@ -9,9 +9,19 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@mdx-js/loader": "^3.0.1",
+    "@mdx-js/react": "^3.0.1",
+    "@next/mdx": "^14.2.5",
+    "@types/mdx": "^2.0.13",
+    "@types/react": "^18.3.3",
+    "framer-motion": "^11.3.29",
+    "jquery": "^3.7.1",
     "next": "14.2.5",
-    "react": "^18",
-    "react-dom": "^18"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-slick": "^0.30.2",
+    "slick-carousel": "^1.8.1",
+    "webpack": "^5.93.0"
   },
   "devDependencies": {
     "postcss": "^8",
