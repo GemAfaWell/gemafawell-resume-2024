@@ -27,11 +27,21 @@ const RAW_RUNTIME_STATE =
       [null, {\
         "packageLocation": "./",\
         "packageDependencies": [\
+          ["@mdx-js/loader", "virtual:f9d7a17afa5c6fa13090cb7d311d975b03db7d7cb880bce8c572fd673bcef142dd52221b0fc32be1d8bc3cd246bd6e9bc701dd3c6a03d4bbdd56d1072a9ddad2#npm:3.0.1"],\
+          ["@mdx-js/react", "virtual:f9d7a17afa5c6fa13090cb7d311d975b03db7d7cb880bce8c572fd673bcef142dd52221b0fc32be1d8bc3cd246bd6e9bc701dd3c6a03d4bbdd56d1072a9ddad2#npm:3.0.1"],\
+          ["@next/mdx", "virtual:f9d7a17afa5c6fa13090cb7d311d975b03db7d7cb880bce8c572fd673bcef142dd52221b0fc32be1d8bc3cd246bd6e9bc701dd3c6a03d4bbdd56d1072a9ddad2#npm:14.2.5"],\
+          ["@types/mdx", "npm:2.0.13"],\
+          ["@types/react", "npm:18.3.3"],\
+          ["framer-motion", "virtual:f9d7a17afa5c6fa13090cb7d311d975b03db7d7cb880bce8c572fd673bcef142dd52221b0fc32be1d8bc3cd246bd6e9bc701dd3c6a03d4bbdd56d1072a9ddad2#npm:11.3.29"],\
+          ["jquery", "npm:3.7.1"],\
           ["next", "virtual:f9d7a17afa5c6fa13090cb7d311d975b03db7d7cb880bce8c572fd673bcef142dd52221b0fc32be1d8bc3cd246bd6e9bc701dd3c6a03d4bbdd56d1072a9ddad2#npm:14.2.5"],\
           ["postcss", "npm:8.4.41"],\
           ["react", "npm:18.3.1"],\
           ["react-dom", "virtual:f9d7a17afa5c6fa13090cb7d311d975b03db7d7cb880bce8c572fd673bcef142dd52221b0fc32be1d8bc3cd246bd6e9bc701dd3c6a03d4bbdd56d1072a9ddad2#npm:18.3.1"],\
-          ["tailwindcss", "npm:3.4.10"]\
+          ["react-slick", "virtual:f9d7a17afa5c6fa13090cb7d311d975b03db7d7cb880bce8c572fd673bcef142dd52221b0fc32be1d8bc3cd246bd6e9bc701dd3c6a03d4bbdd56d1072a9ddad2#npm:0.30.2"],\
+          ["slick-carousel", "virtual:f9d7a17afa5c6fa13090cb7d311d975b03db7d7cb880bce8c572fd673bcef142dd52221b0fc32be1d8bc3cd246bd6e9bc701dd3c6a03d4bbdd56d1072a9ddad2#npm:1.8.1"],\
+          ["tailwindcss", "npm:3.4.10"],\
+          ["webpack", "virtual:f9d7a17afa5c6fa13090cb7d311d975b03db7d7cb880bce8c572fd673bcef142dd52221b0fc32be1d8bc3cd246bd6e9bc701dd3c6a03d4bbdd56d1072a9ddad2#npm:5.93.0"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -99,6 +109,17 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@jridgewell/source-map", [\
+      ["npm:0.3.6", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/@jridgewell-source-map-npm-0.3.6-fe0849eb05-10c0.zip/node_modules/@jridgewell/source-map/",\
+        "packageDependencies": [\
+          ["@jridgewell/source-map", "npm:0.3.6"],\
+          ["@jridgewell/gen-mapping", "npm:0.3.5"],\
+          ["@jridgewell/trace-mapping", "npm:0.3.25"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["@jridgewell/sourcemap-codec", [\
       ["npm:1.5.0", {\
         "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/@jridgewell-sourcemap-codec-npm-1.5.0-dfd9126d71-10c0.zip/node_modules/@jridgewell/sourcemap-codec/",\
@@ -119,11 +140,117 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@mdx-js/loader", [\
+      ["npm:3.0.1", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/@mdx-js-loader-npm-3.0.1-ac130ecd17-10c0.zip/node_modules/@mdx-js/loader/",\
+        "packageDependencies": [\
+          ["@mdx-js/loader", "npm:3.0.1"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:f9d7a17afa5c6fa13090cb7d311d975b03db7d7cb880bce8c572fd673bcef142dd52221b0fc32be1d8bc3cd246bd6e9bc701dd3c6a03d4bbdd56d1072a9ddad2#npm:3.0.1", {\
+        "packageLocation": "./.yarn/__virtual__/@mdx-js-loader-virtual-e4bf9356f6/3/C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/@mdx-js-loader-npm-3.0.1-ac130ecd17-10c0.zip/node_modules/@mdx-js/loader/",\
+        "packageDependencies": [\
+          ["@mdx-js/loader", "virtual:f9d7a17afa5c6fa13090cb7d311d975b03db7d7cb880bce8c572fd673bcef142dd52221b0fc32be1d8bc3cd246bd6e9bc701dd3c6a03d4bbdd56d1072a9ddad2#npm:3.0.1"],\
+          ["@mdx-js/mdx", "npm:3.0.1"],\
+          ["@types/webpack", null],\
+          ["source-map", "npm:0.7.4"],\
+          ["webpack", "virtual:f9d7a17afa5c6fa13090cb7d311d975b03db7d7cb880bce8c572fd673bcef142dd52221b0fc32be1d8bc3cd246bd6e9bc701dd3c6a03d4bbdd56d1072a9ddad2#npm:5.93.0"]\
+        ],\
+        "packagePeers": [\
+          "@types/webpack",\
+          "webpack"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@mdx-js/mdx", [\
+      ["npm:3.0.1", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/@mdx-js-mdx-npm-3.0.1-560c3c34e1-10c0.zip/node_modules/@mdx-js/mdx/",\
+        "packageDependencies": [\
+          ["@mdx-js/mdx", "npm:3.0.1"],\
+          ["@types/estree", "npm:1.0.5"],\
+          ["@types/estree-jsx", "npm:1.0.5"],\
+          ["@types/hast", "npm:3.0.4"],\
+          ["@types/mdx", "npm:2.0.13"],\
+          ["collapse-white-space", "npm:2.1.0"],\
+          ["devlop", "npm:1.1.0"],\
+          ["estree-util-build-jsx", "npm:3.0.1"],\
+          ["estree-util-is-identifier-name", "npm:3.0.0"],\
+          ["estree-util-to-js", "npm:2.0.0"],\
+          ["estree-walker", "npm:3.0.3"],\
+          ["hast-util-to-estree", "npm:3.1.0"],\
+          ["hast-util-to-jsx-runtime", "npm:2.3.0"],\
+          ["markdown-extensions", "npm:2.0.0"],\
+          ["periscopic", "npm:3.1.0"],\
+          ["remark-mdx", "npm:3.0.1"],\
+          ["remark-parse", "npm:11.0.0"],\
+          ["remark-rehype", "npm:11.1.0"],\
+          ["source-map", "npm:0.7.4"],\
+          ["unified", "npm:11.0.5"],\
+          ["unist-util-position-from-estree", "npm:2.0.0"],\
+          ["unist-util-stringify-position", "npm:4.0.0"],\
+          ["unist-util-visit", "npm:5.0.0"],\
+          ["vfile", "npm:6.0.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@mdx-js/react", [\
+      ["npm:3.0.1", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/@mdx-js-react-npm-3.0.1-1ce14f6273-10c0.zip/node_modules/@mdx-js/react/",\
+        "packageDependencies": [\
+          ["@mdx-js/react", "npm:3.0.1"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:f9d7a17afa5c6fa13090cb7d311d975b03db7d7cb880bce8c572fd673bcef142dd52221b0fc32be1d8bc3cd246bd6e9bc701dd3c6a03d4bbdd56d1072a9ddad2#npm:3.0.1", {\
+        "packageLocation": "./.yarn/__virtual__/@mdx-js-react-virtual-469c0bc28b/3/C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/@mdx-js-react-npm-3.0.1-1ce14f6273-10c0.zip/node_modules/@mdx-js/react/",\
+        "packageDependencies": [\
+          ["@mdx-js/react", "virtual:f9d7a17afa5c6fa13090cb7d311d975b03db7d7cb880bce8c572fd673bcef142dd52221b0fc32be1d8bc3cd246bd6e9bc701dd3c6a03d4bbdd56d1072a9ddad2#npm:3.0.1"],\
+          ["@types/mdx", "npm:2.0.13"],\
+          ["@types/react", "npm:18.3.3"],\
+          ["react", "npm:18.3.1"]\
+        ],\
+        "packagePeers": [\
+          "@types/react",\
+          "react"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["@next/env", [\
       ["npm:14.2.5", {\
         "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/@next-env-npm-14.2.5-49076f5af2-10c0.zip/node_modules/@next/env/",\
         "packageDependencies": [\
           ["@next/env", "npm:14.2.5"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@next/mdx", [\
+      ["npm:14.2.5", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/@next-mdx-npm-14.2.5-847f3c9a1b-10c0.zip/node_modules/@next/mdx/",\
+        "packageDependencies": [\
+          ["@next/mdx", "npm:14.2.5"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:f9d7a17afa5c6fa13090cb7d311d975b03db7d7cb880bce8c572fd673bcef142dd52221b0fc32be1d8bc3cd246bd6e9bc701dd3c6a03d4bbdd56d1072a9ddad2#npm:14.2.5", {\
+        "packageLocation": "./.yarn/__virtual__/@next-mdx-virtual-f202191f5a/3/C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/@next-mdx-npm-14.2.5-847f3c9a1b-10c0.zip/node_modules/@next/mdx/",\
+        "packageDependencies": [\
+          ["@next/mdx", "virtual:f9d7a17afa5c6fa13090cb7d311d975b03db7d7cb880bce8c572fd673bcef142dd52221b0fc32be1d8bc3cd246bd6e9bc701dd3c6a03d4bbdd56d1072a9ddad2#npm:14.2.5"],\
+          ["@mdx-js/loader", "virtual:f9d7a17afa5c6fa13090cb7d311d975b03db7d7cb880bce8c572fd673bcef142dd52221b0fc32be1d8bc3cd246bd6e9bc701dd3c6a03d4bbdd56d1072a9ddad2#npm:3.0.1"],\
+          ["@mdx-js/react", "virtual:f9d7a17afa5c6fa13090cb7d311d975b03db7d7cb880bce8c572fd673bcef142dd52221b0fc32be1d8bc3cd246bd6e9bc701dd3c6a03d4bbdd56d1072a9ddad2#npm:3.0.1"],\
+          ["@types/mdx-js__loader", null],\
+          ["@types/mdx-js__react", null],\
+          ["source-map", "npm:0.7.4"]\
+        ],\
+        "packagePeers": [\
+          "@mdx-js/loader",\
+          "@mdx-js/react",\
+          "@types/mdx-js__loader",\
+          "@types/mdx-js__react"\
         ],\
         "linkType": "HARD"\
       }]\
@@ -293,11 +420,416 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@types/acorn", [\
+      ["npm:4.0.6", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/@types-acorn-npm-4.0.6-a81a5c57b1-10c0.zip/node_modules/@types/acorn/",\
+        "packageDependencies": [\
+          ["@types/acorn", "npm:4.0.6"],\
+          ["@types/estree", "npm:1.0.5"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@types/debug", [\
+      ["npm:4.1.12", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/@types-debug-npm-4.1.12-82a3fc4905-10c0.zip/node_modules/@types/debug/",\
+        "packageDependencies": [\
+          ["@types/debug", "npm:4.1.12"],\
+          ["@types/ms", "npm:0.7.34"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@types/eslint", [\
+      ["npm:9.6.0", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/@types-eslint-npm-9.6.0-85c3542082-10c0.zip/node_modules/@types/eslint/",\
+        "packageDependencies": [\
+          ["@types/eslint", "npm:9.6.0"],\
+          ["@types/estree", "npm:1.0.5"],\
+          ["@types/json-schema", "npm:7.0.15"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@types/eslint-scope", [\
+      ["npm:3.7.7", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/@types-eslint-scope-npm-3.7.7-efa26592f6-10c0.zip/node_modules/@types/eslint-scope/",\
+        "packageDependencies": [\
+          ["@types/eslint-scope", "npm:3.7.7"],\
+          ["@types/eslint", "npm:9.6.0"],\
+          ["@types/estree", "npm:1.0.5"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@types/estree", [\
+      ["npm:1.0.5", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/@types-estree-npm-1.0.5-5b7faed3b4-10c0.zip/node_modules/@types/estree/",\
+        "packageDependencies": [\
+          ["@types/estree", "npm:1.0.5"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@types/estree-jsx", [\
+      ["npm:1.0.5", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/@types-estree-jsx-npm-1.0.5-b8759e98c2-10c0.zip/node_modules/@types/estree-jsx/",\
+        "packageDependencies": [\
+          ["@types/estree-jsx", "npm:1.0.5"],\
+          ["@types/estree", "npm:1.0.5"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@types/hast", [\
+      ["npm:3.0.4", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/@types-hast-npm-3.0.4-640776a343-10c0.zip/node_modules/@types/hast/",\
+        "packageDependencies": [\
+          ["@types/hast", "npm:3.0.4"],\
+          ["@types/unist", "npm:3.0.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@types/json-schema", [\
+      ["npm:7.0.15", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/@types-json-schema-npm-7.0.15-fd16381786-10c0.zip/node_modules/@types/json-schema/",\
+        "packageDependencies": [\
+          ["@types/json-schema", "npm:7.0.15"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@types/mdast", [\
+      ["npm:4.0.4", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/@types-mdast-npm-4.0.4-a4a0135eb0-10c0.zip/node_modules/@types/mdast/",\
+        "packageDependencies": [\
+          ["@types/mdast", "npm:4.0.4"],\
+          ["@types/unist", "npm:3.0.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@types/mdx", [\
+      ["npm:2.0.13", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/@types-mdx-npm-2.0.13-52981f86f6-10c0.zip/node_modules/@types/mdx/",\
+        "packageDependencies": [\
+          ["@types/mdx", "npm:2.0.13"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@types/ms", [\
+      ["npm:0.7.34", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/@types-ms-npm-0.7.34-46f5141bfd-10c0.zip/node_modules/@types/ms/",\
+        "packageDependencies": [\
+          ["@types/ms", "npm:0.7.34"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@types/node", [\
+      ["npm:22.4.1", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/@types-node-npm-22.4.1-553ffaf0e5-10c0.zip/node_modules/@types/node/",\
+        "packageDependencies": [\
+          ["@types/node", "npm:22.4.1"],\
+          ["undici-types", "npm:6.19.8"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@types/prop-types", [\
+      ["npm:15.7.12", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/@types-prop-types-npm-15.7.12-b093f43531-10c0.zip/node_modules/@types/prop-types/",\
+        "packageDependencies": [\
+          ["@types/prop-types", "npm:15.7.12"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@types/react", [\
+      ["npm:18.3.3", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/@types-react-npm-18.3.3-07e68e178e-10c0.zip/node_modules/@types/react/",\
+        "packageDependencies": [\
+          ["@types/react", "npm:18.3.3"],\
+          ["@types/prop-types", "npm:15.7.12"],\
+          ["csstype", "npm:3.1.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@types/unist", [\
+      ["npm:2.0.11", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/@types-unist-npm-2.0.11-44eea90bde-10c0.zip/node_modules/@types/unist/",\
+        "packageDependencies": [\
+          ["@types/unist", "npm:2.0.11"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:3.0.3", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/@types-unist-npm-3.0.3-1c20461f2e-10c0.zip/node_modules/@types/unist/",\
+        "packageDependencies": [\
+          ["@types/unist", "npm:3.0.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ungap/structured-clone", [\
+      ["npm:1.2.0", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/@ungap-structured-clone-npm-1.2.0-648f0b82e0-10c0.zip/node_modules/@ungap/structured-clone/",\
+        "packageDependencies": [\
+          ["@ungap/structured-clone", "npm:1.2.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@webassemblyjs/ast", [\
+      ["npm:1.12.1", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/@webassemblyjs-ast-npm-1.12.1-3ff9ea1c0e-10c0.zip/node_modules/@webassemblyjs/ast/",\
+        "packageDependencies": [\
+          ["@webassemblyjs/ast", "npm:1.12.1"],\
+          ["@webassemblyjs/helper-numbers", "npm:1.11.6"],\
+          ["@webassemblyjs/helper-wasm-bytecode", "npm:1.11.6"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@webassemblyjs/floating-point-hex-parser", [\
+      ["npm:1.11.6", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/@webassemblyjs-floating-point-hex-parser-npm-1.11.6-3a9928fc76-10c0.zip/node_modules/@webassemblyjs/floating-point-hex-parser/",\
+        "packageDependencies": [\
+          ["@webassemblyjs/floating-point-hex-parser", "npm:1.11.6"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@webassemblyjs/helper-api-error", [\
+      ["npm:1.11.6", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/@webassemblyjs-helper-api-error-npm-1.11.6-75f6275ff4-10c0.zip/node_modules/@webassemblyjs/helper-api-error/",\
+        "packageDependencies": [\
+          ["@webassemblyjs/helper-api-error", "npm:1.11.6"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@webassemblyjs/helper-buffer", [\
+      ["npm:1.12.1", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/@webassemblyjs-helper-buffer-npm-1.12.1-d025434a45-10c0.zip/node_modules/@webassemblyjs/helper-buffer/",\
+        "packageDependencies": [\
+          ["@webassemblyjs/helper-buffer", "npm:1.12.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@webassemblyjs/helper-numbers", [\
+      ["npm:1.11.6", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/@webassemblyjs-helper-numbers-npm-1.11.6-819ddab1da-10c0.zip/node_modules/@webassemblyjs/helper-numbers/",\
+        "packageDependencies": [\
+          ["@webassemblyjs/helper-numbers", "npm:1.11.6"],\
+          ["@webassemblyjs/floating-point-hex-parser", "npm:1.11.6"],\
+          ["@webassemblyjs/helper-api-error", "npm:1.11.6"],\
+          ["@xtuc/long", "npm:4.2.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@webassemblyjs/helper-wasm-bytecode", [\
+      ["npm:1.11.6", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/@webassemblyjs-helper-wasm-bytecode-npm-1.11.6-3bc23747de-10c0.zip/node_modules/@webassemblyjs/helper-wasm-bytecode/",\
+        "packageDependencies": [\
+          ["@webassemblyjs/helper-wasm-bytecode", "npm:1.11.6"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@webassemblyjs/helper-wasm-section", [\
+      ["npm:1.12.1", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/@webassemblyjs-helper-wasm-section-npm-1.12.1-cd0e2f1eab-10c0.zip/node_modules/@webassemblyjs/helper-wasm-section/",\
+        "packageDependencies": [\
+          ["@webassemblyjs/helper-wasm-section", "npm:1.12.1"],\
+          ["@webassemblyjs/ast", "npm:1.12.1"],\
+          ["@webassemblyjs/helper-buffer", "npm:1.12.1"],\
+          ["@webassemblyjs/helper-wasm-bytecode", "npm:1.11.6"],\
+          ["@webassemblyjs/wasm-gen", "npm:1.12.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@webassemblyjs/ieee754", [\
+      ["npm:1.11.6", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/@webassemblyjs-ieee754-npm-1.11.6-95c92f446a-10c0.zip/node_modules/@webassemblyjs/ieee754/",\
+        "packageDependencies": [\
+          ["@webassemblyjs/ieee754", "npm:1.11.6"],\
+          ["@xtuc/ieee754", "npm:1.2.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@webassemblyjs/leb128", [\
+      ["npm:1.11.6", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/@webassemblyjs-leb128-npm-1.11.6-697d62da2e-10c0.zip/node_modules/@webassemblyjs/leb128/",\
+        "packageDependencies": [\
+          ["@webassemblyjs/leb128", "npm:1.11.6"],\
+          ["@xtuc/long", "npm:4.2.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@webassemblyjs/utf8", [\
+      ["npm:1.11.6", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/@webassemblyjs-utf8-npm-1.11.6-102c4e5d68-10c0.zip/node_modules/@webassemblyjs/utf8/",\
+        "packageDependencies": [\
+          ["@webassemblyjs/utf8", "npm:1.11.6"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@webassemblyjs/wasm-edit", [\
+      ["npm:1.12.1", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/@webassemblyjs-wasm-edit-npm-1.12.1-727bec592a-10c0.zip/node_modules/@webassemblyjs/wasm-edit/",\
+        "packageDependencies": [\
+          ["@webassemblyjs/wasm-edit", "npm:1.12.1"],\
+          ["@webassemblyjs/ast", "npm:1.12.1"],\
+          ["@webassemblyjs/helper-buffer", "npm:1.12.1"],\
+          ["@webassemblyjs/helper-wasm-bytecode", "npm:1.11.6"],\
+          ["@webassemblyjs/helper-wasm-section", "npm:1.12.1"],\
+          ["@webassemblyjs/wasm-gen", "npm:1.12.1"],\
+          ["@webassemblyjs/wasm-opt", "npm:1.12.1"],\
+          ["@webassemblyjs/wasm-parser", "npm:1.12.1"],\
+          ["@webassemblyjs/wast-printer", "npm:1.12.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@webassemblyjs/wasm-gen", [\
+      ["npm:1.12.1", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/@webassemblyjs-wasm-gen-npm-1.12.1-bbe22ad265-10c0.zip/node_modules/@webassemblyjs/wasm-gen/",\
+        "packageDependencies": [\
+          ["@webassemblyjs/wasm-gen", "npm:1.12.1"],\
+          ["@webassemblyjs/ast", "npm:1.12.1"],\
+          ["@webassemblyjs/helper-wasm-bytecode", "npm:1.11.6"],\
+          ["@webassemblyjs/ieee754", "npm:1.11.6"],\
+          ["@webassemblyjs/leb128", "npm:1.11.6"],\
+          ["@webassemblyjs/utf8", "npm:1.11.6"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@webassemblyjs/wasm-opt", [\
+      ["npm:1.12.1", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/@webassemblyjs-wasm-opt-npm-1.12.1-450c932de6-10c0.zip/node_modules/@webassemblyjs/wasm-opt/",\
+        "packageDependencies": [\
+          ["@webassemblyjs/wasm-opt", "npm:1.12.1"],\
+          ["@webassemblyjs/ast", "npm:1.12.1"],\
+          ["@webassemblyjs/helper-buffer", "npm:1.12.1"],\
+          ["@webassemblyjs/wasm-gen", "npm:1.12.1"],\
+          ["@webassemblyjs/wasm-parser", "npm:1.12.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@webassemblyjs/wasm-parser", [\
+      ["npm:1.12.1", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/@webassemblyjs-wasm-parser-npm-1.12.1-54a7a19806-10c0.zip/node_modules/@webassemblyjs/wasm-parser/",\
+        "packageDependencies": [\
+          ["@webassemblyjs/wasm-parser", "npm:1.12.1"],\
+          ["@webassemblyjs/ast", "npm:1.12.1"],\
+          ["@webassemblyjs/helper-api-error", "npm:1.11.6"],\
+          ["@webassemblyjs/helper-wasm-bytecode", "npm:1.11.6"],\
+          ["@webassemblyjs/ieee754", "npm:1.11.6"],\
+          ["@webassemblyjs/leb128", "npm:1.11.6"],\
+          ["@webassemblyjs/utf8", "npm:1.11.6"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@webassemblyjs/wast-printer", [\
+      ["npm:1.12.1", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/@webassemblyjs-wast-printer-npm-1.12.1-e75655c7ff-10c0.zip/node_modules/@webassemblyjs/wast-printer/",\
+        "packageDependencies": [\
+          ["@webassemblyjs/wast-printer", "npm:1.12.1"],\
+          ["@webassemblyjs/ast", "npm:1.12.1"],\
+          ["@xtuc/long", "npm:4.2.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@xtuc/ieee754", [\
+      ["npm:1.2.0", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/@xtuc-ieee754-npm-1.2.0-ec0ce4e025-10c0.zip/node_modules/@xtuc/ieee754/",\
+        "packageDependencies": [\
+          ["@xtuc/ieee754", "npm:1.2.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@xtuc/long", [\
+      ["npm:4.2.2", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/@xtuc-long-npm-4.2.2-37236e6d72-10c0.zip/node_modules/@xtuc/long/",\
+        "packageDependencies": [\
+          ["@xtuc/long", "npm:4.2.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["abbrev", [\
       ["npm:2.0.0", {\
         "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/abbrev-npm-2.0.0-0eb38a17e5-10c0.zip/node_modules/abbrev/",\
         "packageDependencies": [\
           ["abbrev", "npm:2.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["acorn", [\
+      ["npm:8.12.1", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/acorn-npm-8.12.1-610871d57c-10c0.zip/node_modules/acorn/",\
+        "packageDependencies": [\
+          ["acorn", "npm:8.12.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["acorn-import-attributes", [\
+      ["npm:1.9.5", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/acorn-import-attributes-npm-1.9.5-d1e666eb35-10c0.zip/node_modules/acorn-import-attributes/",\
+        "packageDependencies": [\
+          ["acorn-import-attributes", "npm:1.9.5"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:40a4968109d13fc9e26412e72143c322011c9499b6560fe626b6ad7d5bbbef80ce4f84e1d70d806a69fb0a18e56e4192aea0652fde9c42e3f87c5abbea9816f8#npm:1.9.5", {\
+        "packageLocation": "./.yarn/__virtual__/acorn-import-attributes-virtual-fee637af6c/3/C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/acorn-import-attributes-npm-1.9.5-d1e666eb35-10c0.zip/node_modules/acorn-import-attributes/",\
+        "packageDependencies": [\
+          ["acorn-import-attributes", "virtual:40a4968109d13fc9e26412e72143c322011c9499b6560fe626b6ad7d5bbbef80ce4f84e1d70d806a69fb0a18e56e4192aea0652fde9c42e3f87c5abbea9816f8#npm:1.9.5"],\
+          ["@types/acorn", null],\
+          ["acorn", "npm:8.12.1"]\
+        ],\
+        "packagePeers": [\
+          "@types/acorn",\
+          "acorn"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["acorn-jsx", [\
+      ["npm:5.3.2", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/acorn-jsx-npm-5.3.2-d7594599ea-10c0.zip/node_modules/acorn-jsx/",\
+        "packageDependencies": [\
+          ["acorn-jsx", "npm:5.3.2"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:c1ee8da2208095601afd6b3d193759b23c67e6125a2702755478ccc78efb4f432797d8f0064f8fe4eef2ef73923982b9e89749d582ec5206c34703b558f226a5#npm:5.3.2", {\
+        "packageLocation": "./.yarn/__virtual__/acorn-jsx-virtual-c4836acfe2/3/C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/acorn-jsx-npm-5.3.2-d7594599ea-10c0.zip/node_modules/acorn-jsx/",\
+        "packageDependencies": [\
+          ["acorn-jsx", "virtual:c1ee8da2208095601afd6b3d193759b23c67e6125a2702755478ccc78efb4f432797d8f0064f8fe4eef2ef73923982b9e89749d582ec5206c34703b558f226a5#npm:5.3.2"],\
+          ["@types/acorn", null],\
+          ["acorn", "npm:8.12.1"]\
+        ],\
+        "packagePeers": [\
+          "@types/acorn",\
+          "acorn"\
         ],\
         "linkType": "HARD"\
       }]\
@@ -319,6 +851,41 @@ const RAW_RUNTIME_STATE =
           ["aggregate-error", "npm:3.1.0"],\
           ["clean-stack", "npm:2.2.0"],\
           ["indent-string", "npm:4.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["ajv", [\
+      ["npm:6.12.6", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/ajv-npm-6.12.6-4b5105e2b2-10c0.zip/node_modules/ajv/",\
+        "packageDependencies": [\
+          ["ajv", "npm:6.12.6"],\
+          ["fast-deep-equal", "npm:3.1.3"],\
+          ["fast-json-stable-stringify", "npm:2.1.0"],\
+          ["json-schema-traverse", "npm:0.4.1"],\
+          ["uri-js", "npm:4.4.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["ajv-keywords", [\
+      ["npm:3.5.2", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/ajv-keywords-npm-3.5.2-0e391b70e2-10c0.zip/node_modules/ajv-keywords/",\
+        "packageDependencies": [\
+          ["ajv-keywords", "npm:3.5.2"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:f2b36937f163b579815d3163513b3330d7a31aaf0599eea66346382b8838395c613f4204e9809cc2ff6bba09c17ab0c34b37deadcb147de7e2f5e535d6ccc245#npm:3.5.2", {\
+        "packageLocation": "./.yarn/__virtual__/ajv-keywords-virtual-80fc73abbe/3/C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/ajv-keywords-npm-3.5.2-0e391b70e2-10c0.zip/node_modules/ajv-keywords/",\
+        "packageDependencies": [\
+          ["ajv-keywords", "virtual:f2b36937f163b579815d3163513b3330d7a31aaf0599eea66346382b8838395c613f4204e9809cc2ff6bba09c17ab0c34b37deadcb147de7e2f5e535d6ccc245#npm:3.5.2"],\
+          ["@types/ajv", null],\
+          ["ajv", "npm:6.12.6"]\
+        ],\
+        "packagePeers": [\
+          "@types/ajv",\
+          "ajv"\
         ],\
         "linkType": "HARD"\
       }]\
@@ -385,6 +952,24 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["astring", [\
+      ["npm:1.8.6", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/astring-npm-1.8.6-f6cb013b92-10c0.zip/node_modules/astring/",\
+        "packageDependencies": [\
+          ["astring", "npm:1.8.6"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["bail", [\
+      ["npm:2.0.2", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/bail-npm-2.0.2-42130cb251-10c0.zip/node_modules/bail/",\
+        "packageDependencies": [\
+          ["bail", "npm:2.0.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["balanced-match", [\
       ["npm:1.0.2", {\
         "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/balanced-match-npm-1.0.2-a53c126459-10c0.zip/node_modules/balanced-match/",\
@@ -419,6 +1004,28 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["braces", "npm:3.0.3"],\
           ["fill-range", "npm:7.1.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["browserslist", [\
+      ["npm:4.23.3", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/browserslist-npm-4.23.3-4e727c7b5b-10c0.zip/node_modules/browserslist/",\
+        "packageDependencies": [\
+          ["browserslist", "npm:4.23.3"],\
+          ["caniuse-lite", "npm:1.0.30001651"],\
+          ["electron-to-chromium", "npm:1.5.11"],\
+          ["node-releases", "npm:2.0.18"],\
+          ["update-browserslist-db", "virtual:4e727c7b5b033f8d5ac7299f9860cb61f5802656f7b4fea2accd32d68dc1a767387a6d23f0724065d3c65e61cb31b9eec2438ae937ce36e7602b4586ede55af6#npm:1.1.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["buffer-from", [\
+      ["npm:1.1.2", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/buffer-from-npm-1.1.2-03d2f20d7e-10c0.zip/node_modules/buffer-from/",\
+        "packageDependencies": [\
+          ["buffer-from", "npm:1.1.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -472,6 +1079,51 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["ccount", [\
+      ["npm:2.0.1", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/ccount-npm-2.0.1-f4b7827860-10c0.zip/node_modules/ccount/",\
+        "packageDependencies": [\
+          ["ccount", "npm:2.0.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["character-entities", [\
+      ["npm:2.0.2", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/character-entities-npm-2.0.2-b5ef4d8fe2-10c0.zip/node_modules/character-entities/",\
+        "packageDependencies": [\
+          ["character-entities", "npm:2.0.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["character-entities-html4", [\
+      ["npm:2.1.0", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/character-entities-html4-npm-2.1.0-ff9355188e-10c0.zip/node_modules/character-entities-html4/",\
+        "packageDependencies": [\
+          ["character-entities-html4", "npm:2.1.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["character-entities-legacy", [\
+      ["npm:3.0.0", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/character-entities-legacy-npm-3.0.0-ba39d6d541-10c0.zip/node_modules/character-entities-legacy/",\
+        "packageDependencies": [\
+          ["character-entities-legacy", "npm:3.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["character-reference-invalid", [\
+      ["npm:2.0.1", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/character-reference-invalid-npm-2.0.1-edca9dd17a-10c0.zip/node_modules/character-reference-invalid/",\
+        "packageDependencies": [\
+          ["character-reference-invalid", "npm:2.0.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["chokidar", [\
       ["npm:3.6.0", {\
         "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/chokidar-npm-3.6.0-3c413a828f-10c0.zip/node_modules/chokidar/",\
@@ -498,6 +1150,24 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["chrome-trace-event", [\
+      ["npm:1.0.4", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/chrome-trace-event-npm-1.0.4-4f22eb2c55-10c0.zip/node_modules/chrome-trace-event/",\
+        "packageDependencies": [\
+          ["chrome-trace-event", "npm:1.0.4"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["classnames", [\
+      ["npm:2.5.1", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/classnames-npm-2.5.1-c7273f3423-10c0.zip/node_modules/classnames/",\
+        "packageDependencies": [\
+          ["classnames", "npm:2.5.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["clean-stack", [\
       ["npm:2.2.0", {\
         "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/clean-stack-npm-2.2.0-a8ce435a5c-10c0.zip/node_modules/clean-stack/",\
@@ -512,6 +1182,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/client-only-npm-0.0.1-07d3e9505c-10c0.zip/node_modules/client-only/",\
         "packageDependencies": [\
           ["client-only", "npm:0.0.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["collapse-white-space", [\
+      ["npm:2.1.0", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/collapse-white-space-npm-2.1.0-89651f51f3-10c0.zip/node_modules/collapse-white-space/",\
+        "packageDependencies": [\
+          ["collapse-white-space", "npm:2.1.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -535,7 +1214,23 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["comma-separated-tokens", [\
+      ["npm:2.0.3", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/comma-separated-tokens-npm-2.0.3-a4a34086b3-10c0.zip/node_modules/comma-separated-tokens/",\
+        "packageDependencies": [\
+          ["comma-separated-tokens", "npm:2.0.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["commander", [\
+      ["npm:2.20.3", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/commander-npm-2.20.3-d8dcbaa39b-10c0.zip/node_modules/commander/",\
+        "packageDependencies": [\
+          ["commander", "npm:2.20.3"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
       ["npm:4.1.1", {\
         "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/commander-npm-4.1.1-22a0fe921b-10c0.zip/node_modules/commander/",\
         "packageDependencies": [\
@@ -565,6 +1260,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["csstype", [\
+      ["npm:3.1.3", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/csstype-npm-3.1.3-e9a1c85013-10c0.zip/node_modules/csstype/",\
+        "packageDependencies": [\
+          ["csstype", "npm:3.1.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["debug", [\
       ["npm:4.3.6", {\
         "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/debug-npm-4.3.6-ecb233d831-10c0.zip/node_modules/debug/",\
@@ -584,6 +1288,35 @@ const RAW_RUNTIME_STATE =
         "packagePeers": [\
           "@types/supports-color",\
           "supports-color"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["decode-named-character-reference", [\
+      ["npm:1.0.2", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/decode-named-character-reference-npm-1.0.2-db17a755fd-10c0.zip/node_modules/decode-named-character-reference/",\
+        "packageDependencies": [\
+          ["decode-named-character-reference", "npm:1.0.2"],\
+          ["character-entities", "npm:2.0.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["dequal", [\
+      ["npm:2.0.3", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/dequal-npm-2.0.3-53a630c60e-10c0.zip/node_modules/dequal/",\
+        "packageDependencies": [\
+          ["dequal", "npm:2.0.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["devlop", [\
+      ["npm:1.1.0", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/devlop-npm-1.1.0-d4a98d724c-10c0.zip/node_modules/devlop/",\
+        "packageDependencies": [\
+          ["devlop", "npm:1.1.0"],\
+          ["dequal", "npm:2.0.3"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -615,6 +1348,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["electron-to-chromium", [\
+      ["npm:1.5.11", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/electron-to-chromium-npm-1.5.11-f524c11a12-10c0.zip/node_modules/electron-to-chromium/",\
+        "packageDependencies": [\
+          ["electron-to-chromium", "npm:1.5.11"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["emoji-regex", [\
       ["npm:8.0.0", {\
         "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/emoji-regex-npm-8.0.0-213764015c-10c0.zip/node_modules/emoji-regex/",\
@@ -641,6 +1383,26 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["enhanced-resolve", [\
+      ["npm:5.17.1", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/enhanced-resolve-npm-5.17.1-296305b69f-10c0.zip/node_modules/enhanced-resolve/",\
+        "packageDependencies": [\
+          ["enhanced-resolve", "npm:5.17.1"],\
+          ["graceful-fs", "npm:4.2.11"],\
+          ["tapable", "npm:2.2.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["enquire.js", [\
+      ["npm:2.1.6", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/enquire.js-npm-2.1.6-fc4ea2e583-10c0.zip/node_modules/enquire.js/",\
+        "packageDependencies": [\
+          ["enquire.js", "npm:2.1.6"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["env-paths", [\
       ["npm:2.2.1", {\
         "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/env-paths-npm-2.2.1-7c7577428c-10c0.zip/node_modules/env-paths/",\
@@ -659,11 +1421,158 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["es-module-lexer", [\
+      ["npm:1.5.4", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/es-module-lexer-npm-1.5.4-b52b96b8fc-10c0.zip/node_modules/es-module-lexer/",\
+        "packageDependencies": [\
+          ["es-module-lexer", "npm:1.5.4"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["escalade", [\
+      ["npm:3.1.2", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/escalade-npm-3.1.2-5826d31cf8-10c0.zip/node_modules/escalade/",\
+        "packageDependencies": [\
+          ["escalade", "npm:3.1.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["eslint-scope", [\
+      ["npm:5.1.1", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/eslint-scope-npm-5.1.1-71fe59b18a-10c0.zip/node_modules/eslint-scope/",\
+        "packageDependencies": [\
+          ["eslint-scope", "npm:5.1.1"],\
+          ["esrecurse", "npm:4.3.0"],\
+          ["estraverse", "npm:4.3.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["esrecurse", [\
+      ["npm:4.3.0", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/esrecurse-npm-4.3.0-10b86a887a-10c0.zip/node_modules/esrecurse/",\
+        "packageDependencies": [\
+          ["esrecurse", "npm:4.3.0"],\
+          ["estraverse", "npm:5.3.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["estraverse", [\
+      ["npm:4.3.0", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/estraverse-npm-4.3.0-920a32f3c6-10c0.zip/node_modules/estraverse/",\
+        "packageDependencies": [\
+          ["estraverse", "npm:4.3.0"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:5.3.0", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/estraverse-npm-5.3.0-03284f8f63-10c0.zip/node_modules/estraverse/",\
+        "packageDependencies": [\
+          ["estraverse", "npm:5.3.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["estree-util-attach-comments", [\
+      ["npm:3.0.0", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/estree-util-attach-comments-npm-3.0.0-9a9d33e548-10c0.zip/node_modules/estree-util-attach-comments/",\
+        "packageDependencies": [\
+          ["estree-util-attach-comments", "npm:3.0.0"],\
+          ["@types/estree", "npm:1.0.5"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["estree-util-build-jsx", [\
+      ["npm:3.0.1", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/estree-util-build-jsx-npm-3.0.1-e6ce7e25ac-10c0.zip/node_modules/estree-util-build-jsx/",\
+        "packageDependencies": [\
+          ["estree-util-build-jsx", "npm:3.0.1"],\
+          ["@types/estree-jsx", "npm:1.0.5"],\
+          ["devlop", "npm:1.1.0"],\
+          ["estree-util-is-identifier-name", "npm:3.0.0"],\
+          ["estree-walker", "npm:3.0.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["estree-util-is-identifier-name", [\
+      ["npm:3.0.0", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/estree-util-is-identifier-name-npm-3.0.0-7815ea9f20-10c0.zip/node_modules/estree-util-is-identifier-name/",\
+        "packageDependencies": [\
+          ["estree-util-is-identifier-name", "npm:3.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["estree-util-to-js", [\
+      ["npm:2.0.0", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/estree-util-to-js-npm-2.0.0-64970efd5d-10c0.zip/node_modules/estree-util-to-js/",\
+        "packageDependencies": [\
+          ["estree-util-to-js", "npm:2.0.0"],\
+          ["@types/estree-jsx", "npm:1.0.5"],\
+          ["astring", "npm:1.8.6"],\
+          ["source-map", "npm:0.7.4"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["estree-util-visit", [\
+      ["npm:2.0.0", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/estree-util-visit-npm-2.0.0-a1ee97d6ab-10c0.zip/node_modules/estree-util-visit/",\
+        "packageDependencies": [\
+          ["estree-util-visit", "npm:2.0.0"],\
+          ["@types/estree-jsx", "npm:1.0.5"],\
+          ["@types/unist", "npm:3.0.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["estree-walker", [\
+      ["npm:3.0.3", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/estree-walker-npm-3.0.3-0372979673-10c0.zip/node_modules/estree-walker/",\
+        "packageDependencies": [\
+          ["estree-walker", "npm:3.0.3"],\
+          ["@types/estree", "npm:1.0.5"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["events", [\
+      ["npm:3.3.0", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/events-npm-3.3.0-c280bc7e48-10c0.zip/node_modules/events/",\
+        "packageDependencies": [\
+          ["events", "npm:3.3.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["exponential-backoff", [\
       ["npm:3.1.1", {\
         "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/exponential-backoff-npm-3.1.1-04df458b30-10c0.zip/node_modules/exponential-backoff/",\
         "packageDependencies": [\
           ["exponential-backoff", "npm:3.1.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["extend", [\
+      ["npm:3.0.2", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/extend-npm-3.0.2-e1ca07ac54-10c0.zip/node_modules/extend/",\
+        "packageDependencies": [\
+          ["extend", "npm:3.0.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["fast-deep-equal", [\
+      ["npm:3.1.3", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/fast-deep-equal-npm-3.1.3-790edcfcf5-10c0.zip/node_modules/fast-deep-equal/",\
+        "packageDependencies": [\
+          ["fast-deep-equal", "npm:3.1.3"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -678,6 +1587,15 @@ const RAW_RUNTIME_STATE =
           ["glob-parent", "npm:5.1.2"],\
           ["merge2", "npm:1.4.1"],\
           ["micromatch", "npm:4.0.7"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["fast-json-stable-stringify", [\
+      ["npm:2.1.0", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/fast-json-stable-stringify-npm-2.1.0-02e8905fda-10c0.zip/node_modules/fast-json-stable-stringify/",\
+        "packageDependencies": [\
+          ["fast-json-stable-stringify", "npm:2.1.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -709,6 +1627,37 @@ const RAW_RUNTIME_STATE =
           ["foreground-child", "npm:3.3.0"],\
           ["cross-spawn", "npm:7.0.3"],\
           ["signal-exit", "npm:4.1.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["framer-motion", [\
+      ["npm:11.3.29", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/framer-motion-npm-11.3.29-f5a8e85978-10c0.zip/node_modules/framer-motion/",\
+        "packageDependencies": [\
+          ["framer-motion", "npm:11.3.29"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:f9d7a17afa5c6fa13090cb7d311d975b03db7d7cb880bce8c572fd673bcef142dd52221b0fc32be1d8bc3cd246bd6e9bc701dd3c6a03d4bbdd56d1072a9ddad2#npm:11.3.29", {\
+        "packageLocation": "./.yarn/__virtual__/framer-motion-virtual-ea883c65fa/3/C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/framer-motion-npm-11.3.29-f5a8e85978-10c0.zip/node_modules/framer-motion/",\
+        "packageDependencies": [\
+          ["framer-motion", "virtual:f9d7a17afa5c6fa13090cb7d311d975b03db7d7cb880bce8c572fd673bcef142dd52221b0fc32be1d8bc3cd246bd6e9bc701dd3c6a03d4bbdd56d1072a9ddad2#npm:11.3.29"],\
+          ["@emotion/is-prop-valid", null],\
+          ["@types/emotion__is-prop-valid", null],\
+          ["@types/react", "npm:18.3.3"],\
+          ["@types/react-dom", null],\
+          ["react", "npm:18.3.1"],\
+          ["react-dom", "virtual:f9d7a17afa5c6fa13090cb7d311d975b03db7d7cb880bce8c572fd673bcef142dd52221b0fc32be1d8bc3cd246bd6e9bc701dd3c6a03d4bbdd56d1072a9ddad2#npm:18.3.1"],\
+          ["tslib", "npm:2.6.3"]\
+        ],\
+        "packagePeers": [\
+          "@emotion/is-prop-valid",\
+          "@types/emotion__is-prop-valid",\
+          "@types/react-dom",\
+          "@types/react",\
+          "react-dom",\
+          "react"\
         ],\
         "linkType": "HARD"\
       }]\
@@ -755,11 +1704,21 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["gemafawell-resume", "workspace:."],\
+          ["@mdx-js/loader", "virtual:f9d7a17afa5c6fa13090cb7d311d975b03db7d7cb880bce8c572fd673bcef142dd52221b0fc32be1d8bc3cd246bd6e9bc701dd3c6a03d4bbdd56d1072a9ddad2#npm:3.0.1"],\
+          ["@mdx-js/react", "virtual:f9d7a17afa5c6fa13090cb7d311d975b03db7d7cb880bce8c572fd673bcef142dd52221b0fc32be1d8bc3cd246bd6e9bc701dd3c6a03d4bbdd56d1072a9ddad2#npm:3.0.1"],\
+          ["@next/mdx", "virtual:f9d7a17afa5c6fa13090cb7d311d975b03db7d7cb880bce8c572fd673bcef142dd52221b0fc32be1d8bc3cd246bd6e9bc701dd3c6a03d4bbdd56d1072a9ddad2#npm:14.2.5"],\
+          ["@types/mdx", "npm:2.0.13"],\
+          ["@types/react", "npm:18.3.3"],\
+          ["framer-motion", "virtual:f9d7a17afa5c6fa13090cb7d311d975b03db7d7cb880bce8c572fd673bcef142dd52221b0fc32be1d8bc3cd246bd6e9bc701dd3c6a03d4bbdd56d1072a9ddad2#npm:11.3.29"],\
+          ["jquery", "npm:3.7.1"],\
           ["next", "virtual:f9d7a17afa5c6fa13090cb7d311d975b03db7d7cb880bce8c572fd673bcef142dd52221b0fc32be1d8bc3cd246bd6e9bc701dd3c6a03d4bbdd56d1072a9ddad2#npm:14.2.5"],\
           ["postcss", "npm:8.4.41"],\
           ["react", "npm:18.3.1"],\
           ["react-dom", "virtual:f9d7a17afa5c6fa13090cb7d311d975b03db7d7cb880bce8c572fd673bcef142dd52221b0fc32be1d8bc3cd246bd6e9bc701dd3c6a03d4bbdd56d1072a9ddad2#npm:18.3.1"],\
-          ["tailwindcss", "npm:3.4.10"]\
+          ["react-slick", "virtual:f9d7a17afa5c6fa13090cb7d311d975b03db7d7cb880bce8c572fd673bcef142dd52221b0fc32be1d8bc3cd246bd6e9bc701dd3c6a03d4bbdd56d1072a9ddad2#npm:0.30.2"],\
+          ["slick-carousel", "virtual:f9d7a17afa5c6fa13090cb7d311d975b03db7d7cb880bce8c572fd673bcef142dd52221b0fc32be1d8bc3cd246bd6e9bc701dd3c6a03d4bbdd56d1072a9ddad2#npm:1.8.1"],\
+          ["tailwindcss", "npm:3.4.10"],\
+          ["webpack", "virtual:f9d7a17afa5c6fa13090cb7d311d975b03db7d7cb880bce8c572fd673bcef142dd52221b0fc32be1d8bc3cd246bd6e9bc701dd3c6a03d4bbdd56d1072a9ddad2#npm:5.93.0"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -797,11 +1756,29 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["glob-to-regexp", [\
+      ["npm:0.4.1", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/glob-to-regexp-npm-0.4.1-cd697e0fc7-10c0.zip/node_modules/glob-to-regexp/",\
+        "packageDependencies": [\
+          ["glob-to-regexp", "npm:0.4.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["graceful-fs", [\
       ["npm:4.2.11", {\
         "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/graceful-fs-npm-4.2.11-24bb648a68-10c0.zip/node_modules/graceful-fs/",\
         "packageDependencies": [\
           ["graceful-fs", "npm:4.2.11"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["has-flag", [\
+      ["npm:4.0.0", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/has-flag-npm-4.0.0-32af9f0536-10c0.zip/node_modules/has-flag/",\
+        "packageDependencies": [\
+          ["has-flag", "npm:4.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -812,6 +1789,65 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["hasown", "npm:2.0.2"],\
           ["function-bind", "npm:1.1.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["hast-util-to-estree", [\
+      ["npm:3.1.0", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/hast-util-to-estree-npm-3.1.0-0bbaae89ac-10c0.zip/node_modules/hast-util-to-estree/",\
+        "packageDependencies": [\
+          ["hast-util-to-estree", "npm:3.1.0"],\
+          ["@types/estree", "npm:1.0.5"],\
+          ["@types/estree-jsx", "npm:1.0.5"],\
+          ["@types/hast", "npm:3.0.4"],\
+          ["comma-separated-tokens", "npm:2.0.3"],\
+          ["devlop", "npm:1.1.0"],\
+          ["estree-util-attach-comments", "npm:3.0.0"],\
+          ["estree-util-is-identifier-name", "npm:3.0.0"],\
+          ["hast-util-whitespace", "npm:3.0.0"],\
+          ["mdast-util-mdx-expression", "npm:2.0.0"],\
+          ["mdast-util-mdx-jsx", "npm:3.1.2"],\
+          ["mdast-util-mdxjs-esm", "npm:2.0.1"],\
+          ["property-information", "npm:6.5.0"],\
+          ["space-separated-tokens", "npm:2.0.2"],\
+          ["style-to-object", "npm:0.4.4"],\
+          ["unist-util-position", "npm:5.0.0"],\
+          ["zwitch", "npm:2.0.4"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["hast-util-to-jsx-runtime", [\
+      ["npm:2.3.0", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/hast-util-to-jsx-runtime-npm-2.3.0-c0e033a67f-10c0.zip/node_modules/hast-util-to-jsx-runtime/",\
+        "packageDependencies": [\
+          ["hast-util-to-jsx-runtime", "npm:2.3.0"],\
+          ["@types/estree", "npm:1.0.5"],\
+          ["@types/hast", "npm:3.0.4"],\
+          ["@types/unist", "npm:3.0.3"],\
+          ["comma-separated-tokens", "npm:2.0.3"],\
+          ["devlop", "npm:1.1.0"],\
+          ["estree-util-is-identifier-name", "npm:3.0.0"],\
+          ["hast-util-whitespace", "npm:3.0.0"],\
+          ["mdast-util-mdx-expression", "npm:2.0.0"],\
+          ["mdast-util-mdx-jsx", "npm:3.1.2"],\
+          ["mdast-util-mdxjs-esm", "npm:2.0.1"],\
+          ["property-information", "npm:6.5.0"],\
+          ["space-separated-tokens", "npm:2.0.2"],\
+          ["style-to-object", "npm:1.0.6"],\
+          ["unist-util-position", "npm:5.0.0"],\
+          ["vfile-message", "npm:4.0.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["hast-util-whitespace", [\
+      ["npm:3.0.0", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/hast-util-whitespace-npm-3.0.0-215dd4954b-10c0.zip/node_modules/hast-util-whitespace/",\
+        "packageDependencies": [\
+          ["hast-util-whitespace", "npm:3.0.0"],\
+          ["@types/hast", "npm:3.0.4"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -875,6 +1911,22 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["inline-style-parser", [\
+      ["npm:0.1.1", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/inline-style-parser-npm-0.1.1-702eac409f-10c0.zip/node_modules/inline-style-parser/",\
+        "packageDependencies": [\
+          ["inline-style-parser", "npm:0.1.1"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:0.2.3", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/inline-style-parser-npm-0.2.3-b8a7023d7a-10c0.zip/node_modules/inline-style-parser/",\
+        "packageDependencies": [\
+          ["inline-style-parser", "npm:0.2.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["ip-address", [\
       ["npm:9.0.5", {\
         "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/ip-address-npm-9.0.5-9fa024d42a-10c0.zip/node_modules/ip-address/",\
@@ -882,6 +1934,26 @@ const RAW_RUNTIME_STATE =
           ["ip-address", "npm:9.0.5"],\
           ["jsbn", "npm:1.1.0"],\
           ["sprintf-js", "npm:1.1.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["is-alphabetical", [\
+      ["npm:2.0.1", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/is-alphabetical-npm-2.0.1-054fa4f335-10c0.zip/node_modules/is-alphabetical/",\
+        "packageDependencies": [\
+          ["is-alphabetical", "npm:2.0.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["is-alphanumerical", [\
+      ["npm:2.0.1", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/is-alphanumerical-npm-2.0.1-33fafdbb47-10c0.zip/node_modules/is-alphanumerical/",\
+        "packageDependencies": [\
+          ["is-alphanumerical", "npm:2.0.1"],\
+          ["is-alphabetical", "npm:2.0.1"],\
+          ["is-decimal", "npm:2.0.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -902,6 +1974,15 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["is-core-module", "npm:2.15.0"],\
           ["hasown", "npm:2.0.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["is-decimal", [\
+      ["npm:2.0.1", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/is-decimal-npm-2.0.1-828eaaadd3-10c0.zip/node_modules/is-decimal/",\
+        "packageDependencies": [\
+          ["is-decimal", "npm:2.0.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -934,6 +2015,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["is-hexadecimal", [\
+      ["npm:2.0.1", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/is-hexadecimal-npm-2.0.1-00f396bd63-10c0.zip/node_modules/is-hexadecimal/",\
+        "packageDependencies": [\
+          ["is-hexadecimal", "npm:2.0.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["is-lambda", [\
       ["npm:1.0.1", {\
         "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/is-lambda-npm-1.0.1-7ab55bc8a8-10c0.zip/node_modules/is-lambda/",\
@@ -948,6 +2038,25 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/is-number-npm-7.0.0-060086935c-10c0.zip/node_modules/is-number/",\
         "packageDependencies": [\
           ["is-number", "npm:7.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["is-plain-obj", [\
+      ["npm:4.1.0", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/is-plain-obj-npm-4.1.0-a4f2a92b44-10c0.zip/node_modules/is-plain-obj/",\
+        "packageDependencies": [\
+          ["is-plain-obj", "npm:4.1.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["is-reference", [\
+      ["npm:3.0.2", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/is-reference-npm-3.0.2-a164dd9cbd-10c0.zip/node_modules/is-reference/",\
+        "packageDependencies": [\
+          ["is-reference", "npm:3.0.2"],\
+          ["@types/estree", "npm:1.0.5"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -979,11 +2088,32 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["jest-worker", [\
+      ["npm:27.5.1", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/jest-worker-npm-27.5.1-1c110b5894-10c0.zip/node_modules/jest-worker/",\
+        "packageDependencies": [\
+          ["jest-worker", "npm:27.5.1"],\
+          ["@types/node", "npm:22.4.1"],\
+          ["merge-stream", "npm:2.0.0"],\
+          ["supports-color", "npm:8.1.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["jiti", [\
       ["npm:1.21.6", {\
         "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/jiti-npm-1.21.6-0bb76563a3-10c0.zip/node_modules/jiti/",\
         "packageDependencies": [\
           ["jiti", "npm:1.21.6"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["jquery", [\
+      ["npm:3.7.1", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/jquery-npm-3.7.1-eeeac0f21e-10c0.zip/node_modules/jquery/",\
+        "packageDependencies": [\
+          ["jquery", "npm:3.7.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1002,6 +2132,34 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/jsbn-npm-1.1.0-1da0181838-10c0.zip/node_modules/jsbn/",\
         "packageDependencies": [\
           ["jsbn", "npm:1.1.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["json-parse-even-better-errors", [\
+      ["npm:2.3.1", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/json-parse-even-better-errors-npm-2.3.1-144d62256e-10c0.zip/node_modules/json-parse-even-better-errors/",\
+        "packageDependencies": [\
+          ["json-parse-even-better-errors", "npm:2.3.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["json-schema-traverse", [\
+      ["npm:0.4.1", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/json-schema-traverse-npm-0.4.1-4759091693-10c0.zip/node_modules/json-schema-traverse/",\
+        "packageDependencies": [\
+          ["json-schema-traverse", "npm:0.4.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["json2mq", [\
+      ["npm:0.2.0", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/json2mq-npm-0.2.0-aa8a6516b9-10c0.zip/node_modules/json2mq/",\
+        "packageDependencies": [\
+          ["json2mq", "npm:0.2.0"],\
+          ["string-convert", "npm:0.2.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1027,6 +2185,33 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/lines-and-columns-npm-1.2.4-d6c7cc5799-10c0.zip/node_modules/lines-and-columns/",\
         "packageDependencies": [\
           ["lines-and-columns", "npm:1.2.4"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["loader-runner", [\
+      ["npm:4.3.0", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/loader-runner-npm-4.3.0-9ca67df372-10c0.zip/node_modules/loader-runner/",\
+        "packageDependencies": [\
+          ["loader-runner", "npm:4.3.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["lodash.debounce", [\
+      ["npm:4.0.8", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/lodash.debounce-npm-4.0.8-f1d6e09799-10c0.zip/node_modules/lodash.debounce/",\
+        "packageDependencies": [\
+          ["lodash.debounce", "npm:4.0.8"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["longest-streak", [\
+      ["npm:3.1.0", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/longest-streak-npm-3.1.0-e2ab1c40ee-10c0.zip/node_modules/longest-streak/",\
+        "packageDependencies": [\
+          ["longest-streak", "npm:3.1.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1071,11 +2256,548 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["markdown-extensions", [\
+      ["npm:2.0.0", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/markdown-extensions-npm-2.0.0-ab861fd299-10c0.zip/node_modules/markdown-extensions/",\
+        "packageDependencies": [\
+          ["markdown-extensions", "npm:2.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["mdast-util-from-markdown", [\
+      ["npm:2.0.1", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/mdast-util-from-markdown-npm-2.0.1-37ffa6064d-10c0.zip/node_modules/mdast-util-from-markdown/",\
+        "packageDependencies": [\
+          ["mdast-util-from-markdown", "npm:2.0.1"],\
+          ["@types/mdast", "npm:4.0.4"],\
+          ["@types/unist", "npm:3.0.3"],\
+          ["decode-named-character-reference", "npm:1.0.2"],\
+          ["devlop", "npm:1.1.0"],\
+          ["mdast-util-to-string", "npm:4.0.0"],\
+          ["micromark", "npm:4.0.0"],\
+          ["micromark-util-decode-numeric-character-reference", "npm:2.0.1"],\
+          ["micromark-util-decode-string", "npm:2.0.0"],\
+          ["micromark-util-normalize-identifier", "npm:2.0.0"],\
+          ["micromark-util-symbol", "npm:2.0.0"],\
+          ["micromark-util-types", "npm:2.0.0"],\
+          ["unist-util-stringify-position", "npm:4.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["mdast-util-mdx", [\
+      ["npm:3.0.0", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/mdast-util-mdx-npm-3.0.0-02a6734e33-10c0.zip/node_modules/mdast-util-mdx/",\
+        "packageDependencies": [\
+          ["mdast-util-mdx", "npm:3.0.0"],\
+          ["mdast-util-from-markdown", "npm:2.0.1"],\
+          ["mdast-util-mdx-expression", "npm:2.0.0"],\
+          ["mdast-util-mdx-jsx", "npm:3.1.2"],\
+          ["mdast-util-mdxjs-esm", "npm:2.0.1"],\
+          ["mdast-util-to-markdown", "npm:2.1.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["mdast-util-mdx-expression", [\
+      ["npm:2.0.0", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/mdast-util-mdx-expression-npm-2.0.0-442ccac045-10c0.zip/node_modules/mdast-util-mdx-expression/",\
+        "packageDependencies": [\
+          ["mdast-util-mdx-expression", "npm:2.0.0"],\
+          ["@types/estree-jsx", "npm:1.0.5"],\
+          ["@types/hast", "npm:3.0.4"],\
+          ["@types/mdast", "npm:4.0.4"],\
+          ["devlop", "npm:1.1.0"],\
+          ["mdast-util-from-markdown", "npm:2.0.1"],\
+          ["mdast-util-to-markdown", "npm:2.1.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["mdast-util-mdx-jsx", [\
+      ["npm:3.1.2", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/mdast-util-mdx-jsx-npm-3.1.2-ddb83e0459-10c0.zip/node_modules/mdast-util-mdx-jsx/",\
+        "packageDependencies": [\
+          ["mdast-util-mdx-jsx", "npm:3.1.2"],\
+          ["@types/estree-jsx", "npm:1.0.5"],\
+          ["@types/hast", "npm:3.0.4"],\
+          ["@types/mdast", "npm:4.0.4"],\
+          ["@types/unist", "npm:3.0.3"],\
+          ["ccount", "npm:2.0.1"],\
+          ["devlop", "npm:1.1.0"],\
+          ["mdast-util-from-markdown", "npm:2.0.1"],\
+          ["mdast-util-to-markdown", "npm:2.1.0"],\
+          ["parse-entities", "npm:4.0.1"],\
+          ["stringify-entities", "npm:4.0.4"],\
+          ["unist-util-remove-position", "npm:5.0.0"],\
+          ["unist-util-stringify-position", "npm:4.0.0"],\
+          ["vfile-message", "npm:4.0.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["mdast-util-mdxjs-esm", [\
+      ["npm:2.0.1", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/mdast-util-mdxjs-esm-npm-2.0.1-4431068664-10c0.zip/node_modules/mdast-util-mdxjs-esm/",\
+        "packageDependencies": [\
+          ["mdast-util-mdxjs-esm", "npm:2.0.1"],\
+          ["@types/estree-jsx", "npm:1.0.5"],\
+          ["@types/hast", "npm:3.0.4"],\
+          ["@types/mdast", "npm:4.0.4"],\
+          ["devlop", "npm:1.1.0"],\
+          ["mdast-util-from-markdown", "npm:2.0.1"],\
+          ["mdast-util-to-markdown", "npm:2.1.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["mdast-util-phrasing", [\
+      ["npm:4.1.0", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/mdast-util-phrasing-npm-4.1.0-30939ebbcd-10c0.zip/node_modules/mdast-util-phrasing/",\
+        "packageDependencies": [\
+          ["mdast-util-phrasing", "npm:4.1.0"],\
+          ["@types/mdast", "npm:4.0.4"],\
+          ["unist-util-is", "npm:6.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["mdast-util-to-hast", [\
+      ["npm:13.2.0", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/mdast-util-to-hast-npm-13.2.0-538a77f867-10c0.zip/node_modules/mdast-util-to-hast/",\
+        "packageDependencies": [\
+          ["mdast-util-to-hast", "npm:13.2.0"],\
+          ["@types/hast", "npm:3.0.4"],\
+          ["@types/mdast", "npm:4.0.4"],\
+          ["@ungap/structured-clone", "npm:1.2.0"],\
+          ["devlop", "npm:1.1.0"],\
+          ["micromark-util-sanitize-uri", "npm:2.0.0"],\
+          ["trim-lines", "npm:3.0.1"],\
+          ["unist-util-position", "npm:5.0.0"],\
+          ["unist-util-visit", "npm:5.0.0"],\
+          ["vfile", "npm:6.0.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["mdast-util-to-markdown", [\
+      ["npm:2.1.0", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/mdast-util-to-markdown-npm-2.1.0-450939723c-10c0.zip/node_modules/mdast-util-to-markdown/",\
+        "packageDependencies": [\
+          ["mdast-util-to-markdown", "npm:2.1.0"],\
+          ["@types/mdast", "npm:4.0.4"],\
+          ["@types/unist", "npm:3.0.3"],\
+          ["longest-streak", "npm:3.1.0"],\
+          ["mdast-util-phrasing", "npm:4.1.0"],\
+          ["mdast-util-to-string", "npm:4.0.0"],\
+          ["micromark-util-decode-string", "npm:2.0.0"],\
+          ["unist-util-visit", "npm:5.0.0"],\
+          ["zwitch", "npm:2.0.4"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["mdast-util-to-string", [\
+      ["npm:4.0.0", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/mdast-util-to-string-npm-4.0.0-fc8d9714a5-10c0.zip/node_modules/mdast-util-to-string/",\
+        "packageDependencies": [\
+          ["mdast-util-to-string", "npm:4.0.0"],\
+          ["@types/mdast", "npm:4.0.4"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["merge-stream", [\
+      ["npm:2.0.0", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/merge-stream-npm-2.0.0-2ac83efea5-10c0.zip/node_modules/merge-stream/",\
+        "packageDependencies": [\
+          ["merge-stream", "npm:2.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["merge2", [\
       ["npm:1.4.1", {\
         "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/merge2-npm-1.4.1-a2507bd06c-10c0.zip/node_modules/merge2/",\
         "packageDependencies": [\
           ["merge2", "npm:1.4.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["micromark", [\
+      ["npm:4.0.0", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/micromark-npm-4.0.0-ddf83a29ef-10c0.zip/node_modules/micromark/",\
+        "packageDependencies": [\
+          ["micromark", "npm:4.0.0"],\
+          ["@types/debug", "npm:4.1.12"],\
+          ["debug", "virtual:c9e1a4b59e37cb479517edede3bf2093b28c0ca1a9d0e517f3c345075bd1e468980b94b4957e389116607ee7155441dfd7d09e19a4229d5d09bcf06244401590#npm:4.3.6"],\
+          ["decode-named-character-reference", "npm:1.0.2"],\
+          ["devlop", "npm:1.1.0"],\
+          ["micromark-core-commonmark", "npm:2.0.1"],\
+          ["micromark-factory-space", "npm:2.0.0"],\
+          ["micromark-util-character", "npm:2.1.0"],\
+          ["micromark-util-chunked", "npm:2.0.0"],\
+          ["micromark-util-combine-extensions", "npm:2.0.0"],\
+          ["micromark-util-decode-numeric-character-reference", "npm:2.0.1"],\
+          ["micromark-util-encode", "npm:2.0.0"],\
+          ["micromark-util-normalize-identifier", "npm:2.0.0"],\
+          ["micromark-util-resolve-all", "npm:2.0.0"],\
+          ["micromark-util-sanitize-uri", "npm:2.0.0"],\
+          ["micromark-util-subtokenize", "npm:2.0.1"],\
+          ["micromark-util-symbol", "npm:2.0.0"],\
+          ["micromark-util-types", "npm:2.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["micromark-core-commonmark", [\
+      ["npm:2.0.1", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/micromark-core-commonmark-npm-2.0.1-47bd3ea994-10c0.zip/node_modules/micromark-core-commonmark/",\
+        "packageDependencies": [\
+          ["micromark-core-commonmark", "npm:2.0.1"],\
+          ["decode-named-character-reference", "npm:1.0.2"],\
+          ["devlop", "npm:1.1.0"],\
+          ["micromark-factory-destination", "npm:2.0.0"],\
+          ["micromark-factory-label", "npm:2.0.0"],\
+          ["micromark-factory-space", "npm:2.0.0"],\
+          ["micromark-factory-title", "npm:2.0.0"],\
+          ["micromark-factory-whitespace", "npm:2.0.0"],\
+          ["micromark-util-character", "npm:2.1.0"],\
+          ["micromark-util-chunked", "npm:2.0.0"],\
+          ["micromark-util-classify-character", "npm:2.0.0"],\
+          ["micromark-util-html-tag-name", "npm:2.0.0"],\
+          ["micromark-util-normalize-identifier", "npm:2.0.0"],\
+          ["micromark-util-resolve-all", "npm:2.0.0"],\
+          ["micromark-util-subtokenize", "npm:2.0.1"],\
+          ["micromark-util-symbol", "npm:2.0.0"],\
+          ["micromark-util-types", "npm:2.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["micromark-extension-mdx-expression", [\
+      ["npm:3.0.0", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/micromark-extension-mdx-expression-npm-3.0.0-4efecb7218-10c0.zip/node_modules/micromark-extension-mdx-expression/",\
+        "packageDependencies": [\
+          ["micromark-extension-mdx-expression", "npm:3.0.0"],\
+          ["@types/estree", "npm:1.0.5"],\
+          ["devlop", "npm:1.1.0"],\
+          ["micromark-factory-mdx-expression", "npm:2.0.1"],\
+          ["micromark-factory-space", "npm:2.0.0"],\
+          ["micromark-util-character", "npm:2.1.0"],\
+          ["micromark-util-events-to-acorn", "npm:2.0.2"],\
+          ["micromark-util-symbol", "npm:2.0.0"],\
+          ["micromark-util-types", "npm:2.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["micromark-extension-mdx-jsx", [\
+      ["npm:3.0.0", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/micromark-extension-mdx-jsx-npm-3.0.0-9128341ebb-10c0.zip/node_modules/micromark-extension-mdx-jsx/",\
+        "packageDependencies": [\
+          ["micromark-extension-mdx-jsx", "npm:3.0.0"],\
+          ["@types/acorn", "npm:4.0.6"],\
+          ["@types/estree", "npm:1.0.5"],\
+          ["devlop", "npm:1.1.0"],\
+          ["estree-util-is-identifier-name", "npm:3.0.0"],\
+          ["micromark-factory-mdx-expression", "npm:2.0.1"],\
+          ["micromark-factory-space", "npm:2.0.0"],\
+          ["micromark-util-character", "npm:2.1.0"],\
+          ["micromark-util-symbol", "npm:2.0.0"],\
+          ["micromark-util-types", "npm:2.0.0"],\
+          ["vfile-message", "npm:4.0.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["micromark-extension-mdx-md", [\
+      ["npm:2.0.0", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/micromark-extension-mdx-md-npm-2.0.0-eba668824c-10c0.zip/node_modules/micromark-extension-mdx-md/",\
+        "packageDependencies": [\
+          ["micromark-extension-mdx-md", "npm:2.0.0"],\
+          ["micromark-util-types", "npm:2.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["micromark-extension-mdxjs", [\
+      ["npm:3.0.0", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/micromark-extension-mdxjs-npm-3.0.0-c1ee8da220-10c0.zip/node_modules/micromark-extension-mdxjs/",\
+        "packageDependencies": [\
+          ["micromark-extension-mdxjs", "npm:3.0.0"],\
+          ["acorn", "npm:8.12.1"],\
+          ["acorn-jsx", "virtual:c1ee8da2208095601afd6b3d193759b23c67e6125a2702755478ccc78efb4f432797d8f0064f8fe4eef2ef73923982b9e89749d582ec5206c34703b558f226a5#npm:5.3.2"],\
+          ["micromark-extension-mdx-expression", "npm:3.0.0"],\
+          ["micromark-extension-mdx-jsx", "npm:3.0.0"],\
+          ["micromark-extension-mdx-md", "npm:2.0.0"],\
+          ["micromark-extension-mdxjs-esm", "npm:3.0.0"],\
+          ["micromark-util-combine-extensions", "npm:2.0.0"],\
+          ["micromark-util-types", "npm:2.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["micromark-extension-mdxjs-esm", [\
+      ["npm:3.0.0", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/micromark-extension-mdxjs-esm-npm-3.0.0-f09fb4b82d-10c0.zip/node_modules/micromark-extension-mdxjs-esm/",\
+        "packageDependencies": [\
+          ["micromark-extension-mdxjs-esm", "npm:3.0.0"],\
+          ["@types/estree", "npm:1.0.5"],\
+          ["devlop", "npm:1.1.0"],\
+          ["micromark-core-commonmark", "npm:2.0.1"],\
+          ["micromark-util-character", "npm:2.1.0"],\
+          ["micromark-util-events-to-acorn", "npm:2.0.2"],\
+          ["micromark-util-symbol", "npm:2.0.0"],\
+          ["micromark-util-types", "npm:2.0.0"],\
+          ["unist-util-position-from-estree", "npm:2.0.0"],\
+          ["vfile-message", "npm:4.0.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["micromark-factory-destination", [\
+      ["npm:2.0.0", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/micromark-factory-destination-npm-2.0.0-1b8de67781-10c0.zip/node_modules/micromark-factory-destination/",\
+        "packageDependencies": [\
+          ["micromark-factory-destination", "npm:2.0.0"],\
+          ["micromark-util-character", "npm:2.1.0"],\
+          ["micromark-util-symbol", "npm:2.0.0"],\
+          ["micromark-util-types", "npm:2.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["micromark-factory-label", [\
+      ["npm:2.0.0", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/micromark-factory-label-npm-2.0.0-9e92e5cd87-10c0.zip/node_modules/micromark-factory-label/",\
+        "packageDependencies": [\
+          ["micromark-factory-label", "npm:2.0.0"],\
+          ["devlop", "npm:1.1.0"],\
+          ["micromark-util-character", "npm:2.1.0"],\
+          ["micromark-util-symbol", "npm:2.0.0"],\
+          ["micromark-util-types", "npm:2.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["micromark-factory-mdx-expression", [\
+      ["npm:2.0.1", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/micromark-factory-mdx-expression-npm-2.0.1-98802cfda0-10c0.zip/node_modules/micromark-factory-mdx-expression/",\
+        "packageDependencies": [\
+          ["micromark-factory-mdx-expression", "npm:2.0.1"],\
+          ["@types/estree", "npm:1.0.5"],\
+          ["devlop", "npm:1.1.0"],\
+          ["micromark-util-character", "npm:2.1.0"],\
+          ["micromark-util-events-to-acorn", "npm:2.0.2"],\
+          ["micromark-util-symbol", "npm:2.0.0"],\
+          ["micromark-util-types", "npm:2.0.0"],\
+          ["unist-util-position-from-estree", "npm:2.0.0"],\
+          ["vfile-message", "npm:4.0.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["micromark-factory-space", [\
+      ["npm:2.0.0", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/micromark-factory-space-npm-2.0.0-715185b38a-10c0.zip/node_modules/micromark-factory-space/",\
+        "packageDependencies": [\
+          ["micromark-factory-space", "npm:2.0.0"],\
+          ["micromark-util-character", "npm:2.1.0"],\
+          ["micromark-util-types", "npm:2.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["micromark-factory-title", [\
+      ["npm:2.0.0", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/micromark-factory-title-npm-2.0.0-9107a1e877-10c0.zip/node_modules/micromark-factory-title/",\
+        "packageDependencies": [\
+          ["micromark-factory-title", "npm:2.0.0"],\
+          ["micromark-factory-space", "npm:2.0.0"],\
+          ["micromark-util-character", "npm:2.1.0"],\
+          ["micromark-util-symbol", "npm:2.0.0"],\
+          ["micromark-util-types", "npm:2.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["micromark-factory-whitespace", [\
+      ["npm:2.0.0", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/micromark-factory-whitespace-npm-2.0.0-53940ab034-10c0.zip/node_modules/micromark-factory-whitespace/",\
+        "packageDependencies": [\
+          ["micromark-factory-whitespace", "npm:2.0.0"],\
+          ["micromark-factory-space", "npm:2.0.0"],\
+          ["micromark-util-character", "npm:2.1.0"],\
+          ["micromark-util-symbol", "npm:2.0.0"],\
+          ["micromark-util-types", "npm:2.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["micromark-util-character", [\
+      ["npm:2.1.0", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/micromark-util-character-npm-2.1.0-86cf4a520e-10c0.zip/node_modules/micromark-util-character/",\
+        "packageDependencies": [\
+          ["micromark-util-character", "npm:2.1.0"],\
+          ["micromark-util-symbol", "npm:2.0.0"],\
+          ["micromark-util-types", "npm:2.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["micromark-util-chunked", [\
+      ["npm:2.0.0", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/micromark-util-chunked-npm-2.0.0-97063efe7b-10c0.zip/node_modules/micromark-util-chunked/",\
+        "packageDependencies": [\
+          ["micromark-util-chunked", "npm:2.0.0"],\
+          ["micromark-util-symbol", "npm:2.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["micromark-util-classify-character", [\
+      ["npm:2.0.0", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/micromark-util-classify-character-npm-2.0.0-a260c97f86-10c0.zip/node_modules/micromark-util-classify-character/",\
+        "packageDependencies": [\
+          ["micromark-util-classify-character", "npm:2.0.0"],\
+          ["micromark-util-character", "npm:2.1.0"],\
+          ["micromark-util-symbol", "npm:2.0.0"],\
+          ["micromark-util-types", "npm:2.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["micromark-util-combine-extensions", [\
+      ["npm:2.0.0", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/micromark-util-combine-extensions-npm-2.0.0-6af1824ca7-10c0.zip/node_modules/micromark-util-combine-extensions/",\
+        "packageDependencies": [\
+          ["micromark-util-combine-extensions", "npm:2.0.0"],\
+          ["micromark-util-chunked", "npm:2.0.0"],\
+          ["micromark-util-types", "npm:2.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["micromark-util-decode-numeric-character-reference", [\
+      ["npm:2.0.1", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/micromark-util-decode-numeric-character-reference-npm-2.0.1-2db25e156f-10c0.zip/node_modules/micromark-util-decode-numeric-character-reference/",\
+        "packageDependencies": [\
+          ["micromark-util-decode-numeric-character-reference", "npm:2.0.1"],\
+          ["micromark-util-symbol", "npm:2.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["micromark-util-decode-string", [\
+      ["npm:2.0.0", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/micromark-util-decode-string-npm-2.0.0-111ff2ba19-10c0.zip/node_modules/micromark-util-decode-string/",\
+        "packageDependencies": [\
+          ["micromark-util-decode-string", "npm:2.0.0"],\
+          ["decode-named-character-reference", "npm:1.0.2"],\
+          ["micromark-util-character", "npm:2.1.0"],\
+          ["micromark-util-decode-numeric-character-reference", "npm:2.0.1"],\
+          ["micromark-util-symbol", "npm:2.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["micromark-util-encode", [\
+      ["npm:2.0.0", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/micromark-util-encode-npm-2.0.0-c2e70ee7cb-10c0.zip/node_modules/micromark-util-encode/",\
+        "packageDependencies": [\
+          ["micromark-util-encode", "npm:2.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["micromark-util-events-to-acorn", [\
+      ["npm:2.0.2", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/micromark-util-events-to-acorn-npm-2.0.2-57370cc568-10c0.zip/node_modules/micromark-util-events-to-acorn/",\
+        "packageDependencies": [\
+          ["micromark-util-events-to-acorn", "npm:2.0.2"],\
+          ["@types/acorn", "npm:4.0.6"],\
+          ["@types/estree", "npm:1.0.5"],\
+          ["@types/unist", "npm:3.0.3"],\
+          ["devlop", "npm:1.1.0"],\
+          ["estree-util-visit", "npm:2.0.0"],\
+          ["micromark-util-symbol", "npm:2.0.0"],\
+          ["micromark-util-types", "npm:2.0.0"],\
+          ["vfile-message", "npm:4.0.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["micromark-util-html-tag-name", [\
+      ["npm:2.0.0", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/micromark-util-html-tag-name-npm-2.0.0-b09431e16f-10c0.zip/node_modules/micromark-util-html-tag-name/",\
+        "packageDependencies": [\
+          ["micromark-util-html-tag-name", "npm:2.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["micromark-util-normalize-identifier", [\
+      ["npm:2.0.0", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/micromark-util-normalize-identifier-npm-2.0.0-1bfb89b3be-10c0.zip/node_modules/micromark-util-normalize-identifier/",\
+        "packageDependencies": [\
+          ["micromark-util-normalize-identifier", "npm:2.0.0"],\
+          ["micromark-util-symbol", "npm:2.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["micromark-util-resolve-all", [\
+      ["npm:2.0.0", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/micromark-util-resolve-all-npm-2.0.0-113e659bd2-10c0.zip/node_modules/micromark-util-resolve-all/",\
+        "packageDependencies": [\
+          ["micromark-util-resolve-all", "npm:2.0.0"],\
+          ["micromark-util-types", "npm:2.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["micromark-util-sanitize-uri", [\
+      ["npm:2.0.0", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/micromark-util-sanitize-uri-npm-2.0.0-6c6c9b7f33-10c0.zip/node_modules/micromark-util-sanitize-uri/",\
+        "packageDependencies": [\
+          ["micromark-util-sanitize-uri", "npm:2.0.0"],\
+          ["micromark-util-character", "npm:2.1.0"],\
+          ["micromark-util-encode", "npm:2.0.0"],\
+          ["micromark-util-symbol", "npm:2.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["micromark-util-subtokenize", [\
+      ["npm:2.0.1", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/micromark-util-subtokenize-npm-2.0.1-6236be35f3-10c0.zip/node_modules/micromark-util-subtokenize/",\
+        "packageDependencies": [\
+          ["micromark-util-subtokenize", "npm:2.0.1"],\
+          ["devlop", "npm:1.1.0"],\
+          ["micromark-util-chunked", "npm:2.0.0"],\
+          ["micromark-util-symbol", "npm:2.0.0"],\
+          ["micromark-util-types", "npm:2.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["micromark-util-symbol", [\
+      ["npm:2.0.0", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/micromark-util-symbol-npm-2.0.0-dbed08e1a1-10c0.zip/node_modules/micromark-util-symbol/",\
+        "packageDependencies": [\
+          ["micromark-util-symbol", "npm:2.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["micromark-util-types", [\
+      ["npm:2.0.0", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/micromark-util-types-npm-2.0.0-75af4f6790-10c0.zip/node_modules/micromark-util-types/",\
+        "packageDependencies": [\
+          ["micromark-util-types", "npm:2.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1087,6 +2809,25 @@ const RAW_RUNTIME_STATE =
           ["micromatch", "npm:4.0.7"],\
           ["braces", "npm:3.0.3"],\
           ["picomatch", "npm:2.3.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["mime-db", [\
+      ["npm:1.52.0", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/mime-db-npm-1.52.0-b5371d6fd2-10c0.zip/node_modules/mime-db/",\
+        "packageDependencies": [\
+          ["mime-db", "npm:1.52.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["mime-types", [\
+      ["npm:2.1.35", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/mime-types-npm-2.1.35-dd9ea9f3e2-10c0.zip/node_modules/mime-types/",\
+        "packageDependencies": [\
+          ["mime-types", "npm:2.1.35"],\
+          ["mime-db", "npm:1.52.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1237,6 +2978,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["neo-async", [\
+      ["npm:2.6.2", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/neo-async-npm-2.6.2-75d6902586-10c0.zip/node_modules/neo-async/",\
+        "packageDependencies": [\
+          ["neo-async", "npm:2.6.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["next", [\
       ["npm:14.2.5", {\
         "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/next-npm-14.2.5-ce63d89d89-10c0.zip/node_modules/next/",\
@@ -1264,7 +3014,7 @@ const RAW_RUNTIME_STATE =
           ["@swc/helpers", "npm:0.5.5"],\
           ["@types/opentelemetry__api", null],\
           ["@types/playwright__test", null],\
-          ["@types/react", null],\
+          ["@types/react", "npm:18.3.3"],\
           ["@types/react-dom", null],\
           ["@types/sass", null],\
           ["busboy", "npm:1.6.0"],\
@@ -1306,6 +3056,15 @@ const RAW_RUNTIME_STATE =
           ["semver", "npm:7.6.3"],\
           ["tar", "npm:6.2.1"],\
           ["which", "npm:4.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["node-releases", [\
+      ["npm:2.0.18", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/node-releases-npm-2.0.18-51abc46668-10c0.zip/node_modules/node-releases/",\
+        "packageDependencies": [\
+          ["node-releases", "npm:2.0.18"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1366,6 +3125,23 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["parse-entities", [\
+      ["npm:4.0.1", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/parse-entities-npm-4.0.1-2c4b4091f8-10c0.zip/node_modules/parse-entities/",\
+        "packageDependencies": [\
+          ["parse-entities", "npm:4.0.1"],\
+          ["@types/unist", "npm:2.0.11"],\
+          ["character-entities", "npm:2.0.2"],\
+          ["character-entities-legacy", "npm:3.0.0"],\
+          ["character-reference-invalid", "npm:2.0.1"],\
+          ["decode-named-character-reference", "npm:1.0.2"],\
+          ["is-alphanumerical", "npm:2.0.1"],\
+          ["is-decimal", "npm:2.0.1"],\
+          ["is-hexadecimal", "npm:2.0.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["path-key", [\
       ["npm:3.1.1", {\
         "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/path-key-npm-3.1.1-0e66ea8321-10c0.zip/node_modules/path-key/",\
@@ -1391,6 +3167,18 @@ const RAW_RUNTIME_STATE =
           ["path-scurry", "npm:1.11.1"],\
           ["lru-cache", "npm:10.4.3"],\
           ["minipass", "npm:7.1.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["periscopic", [\
+      ["npm:3.1.0", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/periscopic-npm-3.1.0-247cb75ac7-10c0.zip/node_modules/periscopic/",\
+        "packageDependencies": [\
+          ["periscopic", "npm:3.1.0"],\
+          ["@types/estree", "npm:1.0.5"],\
+          ["estree-walker", "npm:3.0.3"],\
+          ["is-reference", "npm:3.0.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1592,11 +3380,39 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["property-information", [\
+      ["npm:6.5.0", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/property-information-npm-6.5.0-1c8c103bec-10c0.zip/node_modules/property-information/",\
+        "packageDependencies": [\
+          ["property-information", "npm:6.5.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["punycode", [\
+      ["npm:2.3.1", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/punycode-npm-2.3.1-97543c420d-10c0.zip/node_modules/punycode/",\
+        "packageDependencies": [\
+          ["punycode", "npm:2.3.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["queue-microtask", [\
       ["npm:1.2.3", {\
         "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/queue-microtask-npm-1.2.3-fcc98e4e2d-10c0.zip/node_modules/queue-microtask/",\
         "packageDependencies": [\
           ["queue-microtask", "npm:1.2.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["randombytes", [\
+      ["npm:2.1.0", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/randombytes-npm-2.1.0-e3da76bccf-10c0.zip/node_modules/randombytes/",\
+        "packageDependencies": [\
+          ["randombytes", "npm:2.1.0"],\
+          ["safe-buffer", "npm:5.2.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1623,13 +3439,44 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/__virtual__/react-dom-virtual-0383c65609/3/C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/react-dom-npm-18.3.1-a805663f38-10c0.zip/node_modules/react-dom/",\
         "packageDependencies": [\
           ["react-dom", "virtual:f9d7a17afa5c6fa13090cb7d311d975b03db7d7cb880bce8c572fd673bcef142dd52221b0fc32be1d8bc3cd246bd6e9bc701dd3c6a03d4bbdd56d1072a9ddad2#npm:18.3.1"],\
-          ["@types/react", null],\
+          ["@types/react", "npm:18.3.3"],\
           ["loose-envify", "npm:1.4.0"],\
           ["react", "npm:18.3.1"],\
           ["scheduler", "npm:0.23.2"]\
         ],\
         "packagePeers": [\
           "@types/react",\
+          "react"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["react-slick", [\
+      ["npm:0.30.2", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/react-slick-npm-0.30.2-0b5987ee2e-10c0.zip/node_modules/react-slick/",\
+        "packageDependencies": [\
+          ["react-slick", "npm:0.30.2"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:f9d7a17afa5c6fa13090cb7d311d975b03db7d7cb880bce8c572fd673bcef142dd52221b0fc32be1d8bc3cd246bd6e9bc701dd3c6a03d4bbdd56d1072a9ddad2#npm:0.30.2", {\
+        "packageLocation": "./.yarn/__virtual__/react-slick-virtual-c986e9d43c/3/C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/react-slick-npm-0.30.2-0b5987ee2e-10c0.zip/node_modules/react-slick/",\
+        "packageDependencies": [\
+          ["react-slick", "virtual:f9d7a17afa5c6fa13090cb7d311d975b03db7d7cb880bce8c572fd673bcef142dd52221b0fc32be1d8bc3cd246bd6e9bc701dd3c6a03d4bbdd56d1072a9ddad2#npm:0.30.2"],\
+          ["@types/react", "npm:18.3.3"],\
+          ["@types/react-dom", null],\
+          ["classnames", "npm:2.5.1"],\
+          ["enquire.js", "npm:2.1.6"],\
+          ["json2mq", "npm:0.2.0"],\
+          ["lodash.debounce", "npm:4.0.8"],\
+          ["react", "npm:18.3.1"],\
+          ["react-dom", "virtual:f9d7a17afa5c6fa13090cb7d311d975b03db7d7cb880bce8c572fd673bcef142dd52221b0fc32be1d8bc3cd246bd6e9bc701dd3c6a03d4bbdd56d1072a9ddad2#npm:18.3.1"],\
+          ["resize-observer-polyfill", "npm:1.5.1"]\
+        ],\
+        "packagePeers": [\
+          "@types/react-dom",\
+          "@types/react",\
+          "react-dom",\
           "react"\
         ],\
         "linkType": "HARD"\
@@ -1651,6 +3498,53 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["readdirp", "npm:3.6.0"],\
           ["picomatch", "npm:2.3.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["remark-mdx", [\
+      ["npm:3.0.1", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/remark-mdx-npm-3.0.1-898cfa3bb1-10c0.zip/node_modules/remark-mdx/",\
+        "packageDependencies": [\
+          ["remark-mdx", "npm:3.0.1"],\
+          ["mdast-util-mdx", "npm:3.0.0"],\
+          ["micromark-extension-mdxjs", "npm:3.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["remark-parse", [\
+      ["npm:11.0.0", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/remark-parse-npm-11.0.0-6484fba69e-10c0.zip/node_modules/remark-parse/",\
+        "packageDependencies": [\
+          ["remark-parse", "npm:11.0.0"],\
+          ["@types/mdast", "npm:4.0.4"],\
+          ["mdast-util-from-markdown", "npm:2.0.1"],\
+          ["micromark-util-types", "npm:2.0.0"],\
+          ["unified", "npm:11.0.5"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["remark-rehype", [\
+      ["npm:11.1.0", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/remark-rehype-npm-11.1.0-52f1fb906c-10c0.zip/node_modules/remark-rehype/",\
+        "packageDependencies": [\
+          ["remark-rehype", "npm:11.1.0"],\
+          ["@types/hast", "npm:3.0.4"],\
+          ["@types/mdast", "npm:4.0.4"],\
+          ["mdast-util-to-hast", "npm:13.2.0"],\
+          ["unified", "npm:11.0.5"],\
+          ["vfile", "npm:6.0.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["resize-observer-polyfill", [\
+      ["npm:1.5.1", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/resize-observer-polyfill-npm-1.5.1-603120e8a0-10c0.zip/node_modules/resize-observer-polyfill/",\
+        "packageDependencies": [\
+          ["resize-observer-polyfill", "npm:1.5.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1695,6 +3589,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["safe-buffer", [\
+      ["npm:5.2.1", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/safe-buffer-npm-5.2.1-3481c8aa9b-10c0.zip/node_modules/safe-buffer/",\
+        "packageDependencies": [\
+          ["safe-buffer", "npm:5.2.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["safer-buffer", [\
       ["npm:2.1.2", {\
         "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/safer-buffer-npm-2.1.2-8d5c0b705e-10c0.zip/node_modules/safer-buffer/",\
@@ -1714,11 +3617,33 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["schema-utils", [\
+      ["npm:3.3.0", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/schema-utils-npm-3.3.0-f2b36937f1-10c0.zip/node_modules/schema-utils/",\
+        "packageDependencies": [\
+          ["schema-utils", "npm:3.3.0"],\
+          ["@types/json-schema", "npm:7.0.15"],\
+          ["ajv", "npm:6.12.6"],\
+          ["ajv-keywords", "virtual:f2b36937f163b579815d3163513b3330d7a31aaf0599eea66346382b8838395c613f4204e9809cc2ff6bba09c17ab0c34b37deadcb147de7e2f5e535d6ccc245#npm:3.5.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["semver", [\
       ["npm:7.6.3", {\
         "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/semver-npm-7.6.3-57e82c14d5-10c0.zip/node_modules/semver/",\
         "packageDependencies": [\
           ["semver", "npm:7.6.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["serialize-javascript", [\
+      ["npm:6.0.2", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/serialize-javascript-npm-6.0.2-cc09461d45-10c0.zip/node_modules/serialize-javascript/",\
+        "packageDependencies": [\
+          ["serialize-javascript", "npm:6.0.2"],\
+          ["randombytes", "npm:2.1.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1747,6 +3672,28 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/signal-exit-npm-4.1.0-61fb957687-10c0.zip/node_modules/signal-exit/",\
         "packageDependencies": [\
           ["signal-exit", "npm:4.1.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["slick-carousel", [\
+      ["npm:1.8.1", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/slick-carousel-npm-1.8.1-8382d373c2-10c0.zip/node_modules/slick-carousel/",\
+        "packageDependencies": [\
+          ["slick-carousel", "npm:1.8.1"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:f9d7a17afa5c6fa13090cb7d311d975b03db7d7cb880bce8c572fd673bcef142dd52221b0fc32be1d8bc3cd246bd6e9bc701dd3c6a03d4bbdd56d1072a9ddad2#npm:1.8.1", {\
+        "packageLocation": "./.yarn/__virtual__/slick-carousel-virtual-5b4ceb3d2a/3/C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/slick-carousel-npm-1.8.1-8382d373c2-10c0.zip/node_modules/slick-carousel/",\
+        "packageDependencies": [\
+          ["slick-carousel", "virtual:f9d7a17afa5c6fa13090cb7d311d975b03db7d7cb880bce8c572fd673bcef142dd52221b0fc32be1d8bc3cd246bd6e9bc701dd3c6a03d4bbdd56d1072a9ddad2#npm:1.8.1"],\
+          ["@types/jquery", null],\
+          ["jquery", "npm:3.7.1"]\
+        ],\
+        "packagePeers": [\
+          "@types/jquery",\
+          "jquery"\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1783,11 +3730,47 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["source-map", [\
+      ["npm:0.6.1", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/source-map-npm-0.6.1-1a3621db16-10c0.zip/node_modules/source-map/",\
+        "packageDependencies": [\
+          ["source-map", "npm:0.6.1"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:0.7.4", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/source-map-npm-0.7.4-bc8d018ab6-10c0.zip/node_modules/source-map/",\
+        "packageDependencies": [\
+          ["source-map", "npm:0.7.4"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["source-map-js", [\
       ["npm:1.2.0", {\
         "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/source-map-js-npm-1.2.0-6e63f357e5-10c0.zip/node_modules/source-map-js/",\
         "packageDependencies": [\
           ["source-map-js", "npm:1.2.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["source-map-support", [\
+      ["npm:0.5.21", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/source-map-support-npm-0.5.21-09ca99e250-10c0.zip/node_modules/source-map-support/",\
+        "packageDependencies": [\
+          ["source-map-support", "npm:0.5.21"],\
+          ["buffer-from", "npm:1.1.2"],\
+          ["source-map", "npm:0.6.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["space-separated-tokens", [\
+      ["npm:2.0.2", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/space-separated-tokens-npm-2.0.2-b7ff42c9c6-10c0.zip/node_modules/space-separated-tokens/",\
+        "packageDependencies": [\
+          ["space-separated-tokens", "npm:2.0.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1820,6 +3803,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["string-convert", [\
+      ["npm:0.2.1", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/string-convert-npm-0.2.1-f1a42cb9ea-10c0.zip/node_modules/string-convert/",\
+        "packageDependencies": [\
+          ["string-convert", "npm:0.2.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["string-width", [\
       ["npm:4.2.3", {\
         "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/string-width-npm-4.2.3-2c27177bae-10c0.zip/node_modules/string-width/",\
@@ -1842,6 +3834,17 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["stringify-entities", [\
+      ["npm:4.0.4", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/stringify-entities-npm-4.0.4-68e836e40b-10c0.zip/node_modules/stringify-entities/",\
+        "packageDependencies": [\
+          ["stringify-entities", "npm:4.0.4"],\
+          ["character-entities-html4", "npm:2.1.0"],\
+          ["character-entities-legacy", "npm:3.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["strip-ansi", [\
       ["npm:6.0.1", {\
         "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/strip-ansi-npm-6.0.1-caddc7cb40-10c0.zip/node_modules/strip-ansi/",\
@@ -1856,6 +3859,24 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["strip-ansi", "npm:7.1.0"],\
           ["ansi-regex", "npm:6.0.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["style-to-object", [\
+      ["npm:0.4.4", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/style-to-object-npm-0.4.4-703ebb5748-10c0.zip/node_modules/style-to-object/",\
+        "packageDependencies": [\
+          ["style-to-object", "npm:0.4.4"],\
+          ["inline-style-parser", "npm:0.1.1"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:1.0.6", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/style-to-object-npm-1.0.6-b50013e448-10c0.zip/node_modules/style-to-object/",\
+        "packageDependencies": [\
+          ["style-to-object", "npm:1.0.6"],\
+          ["inline-style-parser", "npm:0.2.3"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1875,7 +3896,7 @@ const RAW_RUNTIME_STATE =
           ["@babel/core", null],\
           ["@types/babel-plugin-macros", null],\
           ["@types/babel__core", null],\
-          ["@types/react", null],\
+          ["@types/react", "npm:18.3.3"],\
           ["babel-plugin-macros", null],\
           ["client-only", "npm:0.0.1"],\
           ["react", "npm:18.3.1"]\
@@ -1903,6 +3924,16 @@ const RAW_RUNTIME_STATE =
           ["mz", "npm:2.7.0"],\
           ["pirates", "npm:4.0.6"],\
           ["ts-interface-checker", "npm:0.1.13"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["supports-color", [\
+      ["npm:8.1.1", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/supports-color-npm-8.1.1-289e937149-10c0.zip/node_modules/supports-color/",\
+        "packageDependencies": [\
+          ["supports-color", "npm:8.1.1"],\
+          ["has-flag", "npm:4.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1947,6 +3978,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["tapable", [\
+      ["npm:2.2.1", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/tapable-npm-2.2.1-8cf5ff3039-10c0.zip/node_modules/tapable/",\
+        "packageDependencies": [\
+          ["tapable", "npm:2.2.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["tar", [\
       ["npm:6.2.1", {\
         "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/tar-npm-6.2.1-237800bb20-10c0.zip/node_modules/tar/",\
@@ -1958,6 +3998,58 @@ const RAW_RUNTIME_STATE =
           ["minizlib", "npm:2.1.2"],\
           ["mkdirp", "npm:1.0.4"],\
           ["yallist", "npm:4.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["terser", [\
+      ["npm:5.31.6", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/terser-npm-5.31.6-535b99d333-10c0.zip/node_modules/terser/",\
+        "packageDependencies": [\
+          ["terser", "npm:5.31.6"],\
+          ["@jridgewell/source-map", "npm:0.3.6"],\
+          ["acorn", "npm:8.12.1"],\
+          ["commander", "npm:2.20.3"],\
+          ["source-map-support", "npm:0.5.21"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["terser-webpack-plugin", [\
+      ["npm:5.3.10", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/terser-webpack-plugin-npm-5.3.10-3bde1920fb-10c0.zip/node_modules/terser-webpack-plugin/",\
+        "packageDependencies": [\
+          ["terser-webpack-plugin", "npm:5.3.10"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:40a4968109d13fc9e26412e72143c322011c9499b6560fe626b6ad7d5bbbef80ce4f84e1d70d806a69fb0a18e56e4192aea0652fde9c42e3f87c5abbea9816f8#npm:5.3.10", {\
+        "packageLocation": "./.yarn/__virtual__/terser-webpack-plugin-virtual-2d32aa8ba6/3/C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/terser-webpack-plugin-npm-5.3.10-3bde1920fb-10c0.zip/node_modules/terser-webpack-plugin/",\
+        "packageDependencies": [\
+          ["terser-webpack-plugin", "virtual:40a4968109d13fc9e26412e72143c322011c9499b6560fe626b6ad7d5bbbef80ce4f84e1d70d806a69fb0a18e56e4192aea0652fde9c42e3f87c5abbea9816f8#npm:5.3.10"],\
+          ["@jridgewell/trace-mapping", "npm:0.3.25"],\
+          ["@swc/core", null],\
+          ["@types/esbuild", null],\
+          ["@types/swc__core", null],\
+          ["@types/uglify-js", null],\
+          ["@types/webpack", null],\
+          ["esbuild", null],\
+          ["jest-worker", "npm:27.5.1"],\
+          ["schema-utils", "npm:3.3.0"],\
+          ["serialize-javascript", "npm:6.0.2"],\
+          ["terser", "npm:5.31.6"],\
+          ["uglify-js", null],\
+          ["webpack", "virtual:f9d7a17afa5c6fa13090cb7d311d975b03db7d7cb880bce8c572fd673bcef142dd52221b0fc32be1d8bc3cd246bd6e9bc701dd3c6a03d4bbdd56d1072a9ddad2#npm:5.93.0"]\
+        ],\
+        "packagePeers": [\
+          "@swc/core",\
+          "@types/esbuild",\
+          "@types/swc__core",\
+          "@types/uglify-js",\
+          "@types/webpack",\
+          "esbuild",\
+          "uglify-js",\
+          "webpack"\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1992,6 +4084,24 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["trim-lines", [\
+      ["npm:3.0.1", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/trim-lines-npm-3.0.1-24471f7e84-10c0.zip/node_modules/trim-lines/",\
+        "packageDependencies": [\
+          ["trim-lines", "npm:3.0.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["trough", [\
+      ["npm:2.2.0", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/trough-npm-2.2.0-270c93d515-10c0.zip/node_modules/trough/",\
+        "packageDependencies": [\
+          ["trough", "npm:2.2.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["ts-interface-checker", [\
       ["npm:0.1.13", {\
         "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/ts-interface-checker-npm-0.1.13-0c7b064494-10c0.zip/node_modules/ts-interface-checker/",\
@@ -2006,6 +4116,31 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/tslib-npm-2.6.3-0fd136b3be-10c0.zip/node_modules/tslib/",\
         "packageDependencies": [\
           ["tslib", "npm:2.6.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["undici-types", [\
+      ["npm:6.19.8", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/undici-types-npm-6.19.8-9f12285b7a-10c0.zip/node_modules/undici-types/",\
+        "packageDependencies": [\
+          ["undici-types", "npm:6.19.8"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["unified", [\
+      ["npm:11.0.5", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/unified-npm-11.0.5-ac5333017e-10c0.zip/node_modules/unified/",\
+        "packageDependencies": [\
+          ["unified", "npm:11.0.5"],\
+          ["@types/unist", "npm:3.0.3"],\
+          ["bail", "npm:2.0.2"],\
+          ["devlop", "npm:1.1.0"],\
+          ["extend", "npm:3.0.2"],\
+          ["is-plain-obj", "npm:4.1.0"],\
+          ["trough", "npm:2.2.0"],\
+          ["vfile", "npm:6.0.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2030,11 +4165,208 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["unist-util-is", [\
+      ["npm:6.0.0", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/unist-util-is-npm-6.0.0-2bffa09a51-10c0.zip/node_modules/unist-util-is/",\
+        "packageDependencies": [\
+          ["unist-util-is", "npm:6.0.0"],\
+          ["@types/unist", "npm:3.0.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["unist-util-position", [\
+      ["npm:5.0.0", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/unist-util-position-npm-5.0.0-38f216b0a0-10c0.zip/node_modules/unist-util-position/",\
+        "packageDependencies": [\
+          ["unist-util-position", "npm:5.0.0"],\
+          ["@types/unist", "npm:3.0.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["unist-util-position-from-estree", [\
+      ["npm:2.0.0", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/unist-util-position-from-estree-npm-2.0.0-adf063eee5-10c0.zip/node_modules/unist-util-position-from-estree/",\
+        "packageDependencies": [\
+          ["unist-util-position-from-estree", "npm:2.0.0"],\
+          ["@types/unist", "npm:3.0.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["unist-util-remove-position", [\
+      ["npm:5.0.0", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/unist-util-remove-position-npm-5.0.0-1f2a181e0a-10c0.zip/node_modules/unist-util-remove-position/",\
+        "packageDependencies": [\
+          ["unist-util-remove-position", "npm:5.0.0"],\
+          ["@types/unist", "npm:3.0.3"],\
+          ["unist-util-visit", "npm:5.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["unist-util-stringify-position", [\
+      ["npm:4.0.0", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/unist-util-stringify-position-npm-4.0.0-2362acd217-10c0.zip/node_modules/unist-util-stringify-position/",\
+        "packageDependencies": [\
+          ["unist-util-stringify-position", "npm:4.0.0"],\
+          ["@types/unist", "npm:3.0.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["unist-util-visit", [\
+      ["npm:5.0.0", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/unist-util-visit-npm-5.0.0-df56c75117-10c0.zip/node_modules/unist-util-visit/",\
+        "packageDependencies": [\
+          ["unist-util-visit", "npm:5.0.0"],\
+          ["@types/unist", "npm:3.0.3"],\
+          ["unist-util-is", "npm:6.0.0"],\
+          ["unist-util-visit-parents", "npm:6.0.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["unist-util-visit-parents", [\
+      ["npm:6.0.1", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/unist-util-visit-parents-npm-6.0.1-29ba152125-10c0.zip/node_modules/unist-util-visit-parents/",\
+        "packageDependencies": [\
+          ["unist-util-visit-parents", "npm:6.0.1"],\
+          ["@types/unist", "npm:3.0.3"],\
+          ["unist-util-is", "npm:6.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["update-browserslist-db", [\
+      ["npm:1.1.0", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/update-browserslist-db-npm-1.1.0-3d2cb7d955-10c0.zip/node_modules/update-browserslist-db/",\
+        "packageDependencies": [\
+          ["update-browserslist-db", "npm:1.1.0"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:4e727c7b5b033f8d5ac7299f9860cb61f5802656f7b4fea2accd32d68dc1a767387a6d23f0724065d3c65e61cb31b9eec2438ae937ce36e7602b4586ede55af6#npm:1.1.0", {\
+        "packageLocation": "./.yarn/__virtual__/update-browserslist-db-virtual-e5d722ea57/3/C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/update-browserslist-db-npm-1.1.0-3d2cb7d955-10c0.zip/node_modules/update-browserslist-db/",\
+        "packageDependencies": [\
+          ["update-browserslist-db", "virtual:4e727c7b5b033f8d5ac7299f9860cb61f5802656f7b4fea2accd32d68dc1a767387a6d23f0724065d3c65e61cb31b9eec2438ae937ce36e7602b4586ede55af6#npm:1.1.0"],\
+          ["@types/browserslist", null],\
+          ["browserslist", "npm:4.23.3"],\
+          ["escalade", "npm:3.1.2"],\
+          ["picocolors", "npm:1.0.1"]\
+        ],\
+        "packagePeers": [\
+          "@types/browserslist",\
+          "browserslist"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["uri-js", [\
+      ["npm:4.4.1", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/uri-js-npm-4.4.1-66d11cbcaf-10c0.zip/node_modules/uri-js/",\
+        "packageDependencies": [\
+          ["uri-js", "npm:4.4.1"],\
+          ["punycode", "npm:2.3.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["util-deprecate", [\
       ["npm:1.0.2", {\
         "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/util-deprecate-npm-1.0.2-e3fe1a219c-10c0.zip/node_modules/util-deprecate/",\
         "packageDependencies": [\
           ["util-deprecate", "npm:1.0.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["vfile", [\
+      ["npm:6.0.2", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/vfile-npm-6.0.2-19da19c73a-10c0.zip/node_modules/vfile/",\
+        "packageDependencies": [\
+          ["vfile", "npm:6.0.2"],\
+          ["@types/unist", "npm:3.0.3"],\
+          ["unist-util-stringify-position", "npm:4.0.0"],\
+          ["vfile-message", "npm:4.0.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["vfile-message", [\
+      ["npm:4.0.2", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/vfile-message-npm-4.0.2-6a07dfdc39-10c0.zip/node_modules/vfile-message/",\
+        "packageDependencies": [\
+          ["vfile-message", "npm:4.0.2"],\
+          ["@types/unist", "npm:3.0.3"],\
+          ["unist-util-stringify-position", "npm:4.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["watchpack", [\
+      ["npm:2.4.2", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/watchpack-npm-2.4.2-3e587d5d5b-10c0.zip/node_modules/watchpack/",\
+        "packageDependencies": [\
+          ["watchpack", "npm:2.4.2"],\
+          ["glob-to-regexp", "npm:0.4.1"],\
+          ["graceful-fs", "npm:4.2.11"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["webpack", [\
+      ["npm:5.93.0", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/webpack-npm-5.93.0-10ee698c0b-10c0.zip/node_modules/webpack/",\
+        "packageDependencies": [\
+          ["webpack", "npm:5.93.0"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:f9d7a17afa5c6fa13090cb7d311d975b03db7d7cb880bce8c572fd673bcef142dd52221b0fc32be1d8bc3cd246bd6e9bc701dd3c6a03d4bbdd56d1072a9ddad2#npm:5.93.0", {\
+        "packageLocation": "./.yarn/__virtual__/webpack-virtual-40a4968109/3/C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/webpack-npm-5.93.0-10ee698c0b-10c0.zip/node_modules/webpack/",\
+        "packageDependencies": [\
+          ["webpack", "virtual:f9d7a17afa5c6fa13090cb7d311d975b03db7d7cb880bce8c572fd673bcef142dd52221b0fc32be1d8bc3cd246bd6e9bc701dd3c6a03d4bbdd56d1072a9ddad2#npm:5.93.0"],\
+          ["@types/eslint-scope", "npm:3.7.7"],\
+          ["@types/estree", "npm:1.0.5"],\
+          ["@types/webpack-cli", null],\
+          ["@webassemblyjs/ast", "npm:1.12.1"],\
+          ["@webassemblyjs/wasm-edit", "npm:1.12.1"],\
+          ["@webassemblyjs/wasm-parser", "npm:1.12.1"],\
+          ["acorn", "npm:8.12.1"],\
+          ["acorn-import-attributes", "virtual:40a4968109d13fc9e26412e72143c322011c9499b6560fe626b6ad7d5bbbef80ce4f84e1d70d806a69fb0a18e56e4192aea0652fde9c42e3f87c5abbea9816f8#npm:1.9.5"],\
+          ["browserslist", "npm:4.23.3"],\
+          ["chrome-trace-event", "npm:1.0.4"],\
+          ["enhanced-resolve", "npm:5.17.1"],\
+          ["es-module-lexer", "npm:1.5.4"],\
+          ["eslint-scope", "npm:5.1.1"],\
+          ["events", "npm:3.3.0"],\
+          ["glob-to-regexp", "npm:0.4.1"],\
+          ["graceful-fs", "npm:4.2.11"],\
+          ["json-parse-even-better-errors", "npm:2.3.1"],\
+          ["loader-runner", "npm:4.3.0"],\
+          ["mime-types", "npm:2.1.35"],\
+          ["neo-async", "npm:2.6.2"],\
+          ["schema-utils", "npm:3.3.0"],\
+          ["tapable", "npm:2.2.1"],\
+          ["terser-webpack-plugin", "virtual:40a4968109d13fc9e26412e72143c322011c9499b6560fe626b6ad7d5bbbef80ce4f84e1d70d806a69fb0a18e56e4192aea0652fde9c42e3f87c5abbea9816f8#npm:5.3.10"],\
+          ["watchpack", "npm:2.4.2"],\
+          ["webpack-cli", null],\
+          ["webpack-sources", "npm:3.2.3"]\
+        ],\
+        "packagePeers": [\
+          "@types/webpack-cli",\
+          "webpack-cli"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["webpack-sources", [\
+      ["npm:3.2.3", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/webpack-sources-npm-3.2.3-6bfb5d9563-10c0.zip/node_modules/webpack-sources/",\
+        "packageDependencies": [\
+          ["webpack-sources", "npm:3.2.3"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2093,6 +4425,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/yaml-npm-2.5.0-402c6c0928-10c0.zip/node_modules/yaml/",\
         "packageDependencies": [\
           ["yaml", "npm:2.5.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["zwitch", [\
+      ["npm:2.0.4", {\
+        "packageLocation": "../../C:/Users/thepowellfam/AppData/Local/Yarn/Berry/cache/zwitch-npm-2.0.4-13220031e2-10c0.zip/node_modules/zwitch/",\
+        "packageDependencies": [\
+          ["zwitch", "npm:2.0.4"]\
         ],\
         "linkType": "HARD"\
       }]\
