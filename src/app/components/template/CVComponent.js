@@ -1,6 +1,6 @@
 export default function CVComponent() {
     return (
-        <div className='flex flex-col float-right w-3/4 gap-8 mr-0 bg-purple-800 border-l-4 border-black'>
+        <div className='flex flex-col w-full gap-8 mr-0 bg-purple-800'>
             <div className='w-5/6 pt-4 m-auto'>
                 <h2>Summary</h2>
                 <p className='pt-2'>A mid-level MERN full-stack web developer with approximately four years of aggregate experience, including two as the sole proprietor of my own agency, Texas WebGems. Total of seven years collective experience in the last fifteen years with front-end development. Looking to expand my knowledge and utilize my expertise at a company with inclusive values and global reach.</p>
