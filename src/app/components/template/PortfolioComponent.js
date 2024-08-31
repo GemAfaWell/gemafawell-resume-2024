@@ -4,7 +4,7 @@ import Image from 'next/image';
 export default function PortfolioComponent() {
     return (
         <div>
-            <div className='grid grid-cols-2 gap-20 pt-8 text-center text-black bg-blue-400'>
+            <div className='grid grid-cols-2 gap-20 pt-8 text-center text-black bg-blue-400 portfolio-first-row'>
                 <div className='py-8'>
                 <Link href='https://www.texaswebgems.com/'>
                         <h3>Texas WebGems</h3>
