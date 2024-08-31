@@ -34,14 +34,14 @@ export default function SimpleSlider() {
                     </div>
                     <CVComponent />
                 </div>
-                {/* <div className='text-black bg-blue-400'>
+                <div className='text-black bg-blue-400'>
                     <div className='pl-2 font-bold'>
                         <h1>Portfolio</h1>
                     </div>
                     <div className='w-11/12 m-auto'>
                         <PortfolioComponent />
                     </div>
-                </div> */}
+                </div>
             </Slider>
         </div>
     );
